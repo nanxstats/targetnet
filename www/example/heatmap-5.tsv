@@ -1,0 +1,624 @@
+Target	UniProt.Name	Comp.1	Comp.2	Comp.3	Comp.4	Comp.5
+P55245	Epidermal growth factor receptor	0.834	0.228	0.118	0.168	0.198
+P00533	Epidermal growth factor receptor	0.814	0.268	0.154	0.28	0.328
+P54760	Ephrin type-B receptor 4	0.72	0.27	0.142	0.234	0.15
+Q5S007	Leucine-rich repeat serine/threonine-protein kinase 2	0.702	0.25	0.076	0.444	0.172
+P00519	Tyrosine-protein kinase ABL1	0.698	0.272	0.15	0.184	0.05
+Q9NR96	Toll-like receptor 9	0.686	0.502	0.362	0.64	0.828
+P51452	Dual specificity protein phosphatase 3	0.668	0.472	0.298	0.438	0.41
+Q14524	Sodium channel protein type 5 subunit alpha	0.652	0.486	0.498	0.444	0.438
+P80457	Xanthine dehydrogenase/oxidase	0.648	0.566	0.728	0.668	0.718
+P35869	Aryl hydrocarbon receptor	0.644	0.556	0.528	0.574	0.784
+O75116	Rho-associated protein kinase 2	0.632	0.328	0.23	0.456	0.366
+O43353	Receptor-interacting serine/threonine-protein kinase 2	0.622	0.49	0.61	0.604	0.788
+P05177	Cytochrome P450 1A2	0.618	0.472	0.284	0.534	0.404
+Q14432	cGMP-inhibited 3',5'-cyclic phosphodiesterase A	0.6	0.444	0.296	0.518	0.284
+P11712	Cytochrome P450 2C9	0.598	0.398	0.326	0.364	0.386
+P30305	M-phase inducer phosphatase 2	0.582	0.462	0.524	0.472	0.588
+P16234	Platelet-derived growth factor receptor alpha	0.576	0.14	0.122	0.308	0.164
+P33261	Cytochrome P450 2C19	0.572	0.49	0.51	0.46	0.722
+O95136	Sphingosine 1-phosphate receptor 2	0.57	0.562	0.672	0.534	0.714
+P68400	Casein kinase II subunit alpha	0.544	0.538	0.652	0.61	0.8
+P08684	Cytochrome P450 3A4	0.536	0.432	0.206	0.32	0.174
+P21396	Amine oxidase [flavin-containing] A	0.532	0.476	0.534	0.606	0.522
+Q00987	E3 ubiquitin-protein ligase Mdm2	0.522	0.47	0.662	0.58	0.452
+Q9Y2R2	Tyrosine-protein phosphatase non-receptor type 22	0.522	0.484	0.592	0.568	0.602
+Q9HC97	G-protein coupled receptor 35	0.516	0.56	0.564	0.452	0.492
+P06241	Tyrosine-protein kinase Fyn	0.514	0.564	0.75	0.726	0.756
+P63001	Ras-related C3 botulinum toxin substrate 1	0.51	0.62	0.444	0.406	0.362
+P15144	Aminopeptidase N	0.508	0.56	0.36	0.476	0.526
+P16116	Aldose reductase	0.506	0.472	0.34	0.5	0.484
+Q9UHL4	Dipeptidyl peptidase 2	0.504	0.386	0.58	0.608	0.534
+P63000	Ras-related C3 botulinum toxin substrate 1	0.502	0.58	0.442	0.41	0.306
+Q9Y5X4	Photoreceptor-specific nuclear receptor	0.492	0.434	0.388	0.484	0.436
+P14174	Macrophage migration inhibitory factor	0.486	0.52	0.512	0.57	0.448
+P36888	Receptor-type tyrosine-protein kinase FLT3	0.482	0.3	0.076	0.346	0.164
+P12931	Proto-oncogene tyrosine-protein kinase Src	0.48	0.176	0.09	0.214	0.124
+P30989	Neurotensin receptor type 1	0.48	0.562	0.398	0.386	0.41
+Q96EB6	NAD-dependent protein deacetylase sirtuin-1	0.478	0.422	0.33	0.43	0.262
+Q95136	D(1A) dopamine receptor	0.476	0.478	0.28	0.41	0.452
+O14965	Aurora kinase A	0.474	0.174	0.016	0.12	0.028
+P05979	Prostaglandin G/H synthase 1	0.456	0.52	0.56	0.346	0.41
+O60755	Galanin receptor type 3	0.45	0.488	0.442	0.528	0.314
+P79208	Prostaglandin G/H synthase 2	0.45	0.428	0.268	0.492	0.724
+P29474	Nitric oxide synthase, endothelial	0.448	0.358	0.438	0.532	0.694
+P28566	5-hydroxytryptamine receptor 1E	0.442	0.556	0.534	0.496	0.516
+P19156	Potassium-transporting ATPase alpha chain 1	0.44	0.1	0.07	0.162	0.028
+P29597	Non-receptor tyrosine-protein kinase TYK2	0.44	0.484	0.38	0.456	0.458
+Q05397	Focal adhesion kinase 1	0.44	0.4	0.412	0.354	0.354
+P29477	Nitric oxide synthase, inducible	0.438	0.394	0.576	0.404	0.388
+P16050	Arachidonate 15-lipoxygenase	0.436	0.396	0.412	0.32	0.312
+P30530	Tyrosine-protein kinase receptor UFO	0.434	0.186	0.098	0.116	0.08
+P17948	Vascular endothelial growth factor receptor 1	0.43	0.222	0.134	0.344	0.198
+Q63470	Dual specificity tyrosine-phosphorylation-regulated kinase 1A	0.43	0.398	0.408	0.398	0.32
+P15056	Serine/threonine-protein kinase B-raf	0.426	0.22	0.048	0.378	0.148
+P23219	Prostaglandin G/H synthase 1	0.422	0.474	0.32	0.528	0.26
+P18825	Alpha-2C adrenergic receptor	0.42	0.288	0.11	0.294	0.292
+Q06418	Tyrosine-protein kinase receptor TYRO3	0.42	0.188	0.184	0.152	0.12
+Q16548	Bcl-2-related protein A1	0.42	0.324	0.518	0.524	0.514
+Q05769	Prostaglandin G/H synthase 2	0.418	0.472	0.438	0.386	0.892
+P31424	Metabotropic glutamate receptor 5	0.416	0.25	0.068	0.214	0.098
+O14746	Telomerase reverse transcriptase	0.414	0.406	0.158	0.32	0.246
+P10635	Cytochrome P450 2D6	0.414	0.408	0.166	0.42	0.28
+P35398	Nuclear receptor ROR-alpha	0.414	0.25	0.43	0.554	0.394
+P53779	Mitogen-activated protein kinase 10	0.41	0.318	0.152	0.212	0.17
+P35968	Vascular endothelial growth factor receptor 2	0.408	0.098	0.024	0.172	0.034
+P31941	DNA dC->dU-editing enzyme APOBEC-3A	0.402	0.552	0.586	0.344	0.528
+P04058	Acetylcholinesterase	0.4	0.518	0.686	0.454	0.618
+P24468	COUP transcription factor 2	0.398	0.374	0.64	0.592	0.266
+Q04206	Transcription factor p65	0.398	0.448	0.27	0.472	0.484
+Q9Y243	RAC-gamma serine/threonine-protein kinase	0.398	0.24	0.316	0.188	0.25
+P35916	Vascular endothelial growth factor receptor 3	0.396	0.266	0.188	0.28	0.15
+P05121	Plasminogen activator inhibitor 1	0.394	0.29	0.306	0.384	0.422
+P19643	Amine oxidase [flavin-containing] B	0.394	0.494	0.48	0.456	0.582
+P07949	Proto-oncogene tyrosine-protein kinase receptor Ret	0.39	0.208	0.114	0.19	0.104
+Q12809	Potassium voltage-gated channel subfamily H member 2	0.388	0.3	0.074	0.382	0.276
+P02550	Tubulin alpha-1A chain	0.386	0.396	0.552	0.44	0.434
+P04626	Receptor tyrosine-protein kinase erbB-2	0.386	0.138	0.076	0.13	0.056
+P00750	Tissue-type plasminogen activator	0.382	0.352	0.568	0.45	0.454
+P21397	Amine oxidase [flavin-containing] A	0.382	0.468	0.366	0.58	0.548
+P05186	Alkaline phosphatase, tissue-nonspecific isozyme	0.38	0.394	0.372	0.398	0.448
+P51679	C-C chemokine receptor type 4	0.378	0.232	0.122	0.254	0.146
+Q14833	Metabotropic glutamate receptor 4	0.378	0.356	0.19	0.368	0.196
+Q96RJ0	Trace amine-associated receptor 1	0.376	0.208	0.212	0.322	0.308
+Q13627	Dual specificity tyrosine-phosphorylation-regulated kinase 1A	0.374	0.478	0.476	0.446	0.476
+P17706	Tyrosine-protein phosphatase non-receptor type 2	0.372	0.454	0.406	0.36	0.426
+P21728	D(1A) dopamine receptor	0.372	0.4	0.284	0.442	0.072
+P29476	Nitric oxide synthase, brain	0.372	0.418	0.436	0.554	0.456
+Q13085	Acetyl-CoA carboxylase 1	0.364	0.356	0.402	0.418	0.324
+P00747	Plasminogen	0.362	0.372	0.458	0.312	0.362
+P80365	Corticosteroid 11-beta-dehydrogenase isozyme 2	0.362	0.552	0.8	0.464	0.334
+P60953	Cell division control protein 42 homolog	0.36	0.484	0.414	0.318	0.268
+O14684	Prostaglandin E synthase	0.354	0.342	0.296	0.254	0.202
+Q86TI2	Dipeptidyl peptidase 9	0.354	0.394	0.354	0.366	0.262
+Q8IXJ6	NAD-dependent protein deacetylase sirtuin-2	0.352	0.332	0.414	0.376	0.252
+Q9UNQ0	ATP-binding cassette sub-family G member 2	0.352	0.34	0.226	0.244	0.314
+P09917	Arachidonate 5-lipoxygenase	0.35	0.258	0.422	0.42	0.306
+P55211	Caspase-9	0.346	0.476	0.18	0.4	0.254
+P07948	Tyrosine-protein kinase Lyn	0.344	0.17	0.034	0.074	0.018
+P08311	Cathepsin G	0.344	0.49	0.466	0.37	0.396
+P45984	Mitogen-activated protein kinase 9	0.342	0.3	0.11	0.184	0.052
+P43119	Prostacyclin receptor	0.34	0.398	0.34	0.402	0.25
+Q9HC16	DNA dC->dU-editing enzyme APOBEC-3G	0.34	0.382	0.414	0.346	0.304
+P27338	Amine oxidase [flavin-containing] B	0.336	0.344	0.514	0.366	0.596
+P56524	Histone deacetylase 4	0.336	0.522	0.356	0.298	0.166
+Q16790	Carbonic anhydrase 9	0.336	0.246	0.45	0.764	0.648
+Q8T6T2	Inosine-5'-monophosphate dehydrogenase	0.336	0.21	0.134	0.248	0.256
+P08631	Tyrosine-protein kinase HCK	0.334	0.122	0.08	0.11	0.056
+P05364	Beta-lactamase	0.332	0.298	0.536	0.366	0.61
+P07333	Macrophage colony-stimulating factor 1 receptor	0.33	0.162	0.028	0.106	0.014
+P09619	Platelet-derived growth factor receptor beta	0.328	0.2	0.086	0.342	0.15
+P28482	Mitogen-activated protein kinase 1	0.328	0.34	0.2	0.25	0.166
+P08913	Alpha-2A adrenergic receptor	0.326	0.252	0.14	0.312	0.444
+P25779	Cruzipain	0.324	0.308	0.224	0.184	0.09
+P47900	P2Y purinoceptor 1	0.324	0.196	0.198	0.136	0.198
+P00517	cAMP-dependent protein kinase catalytic subunit alpha	0.322	0.544	0.286	0.284	0.224
+P04049	RAF proto-oncogene serine/threonine-protein kinase	0.322	0.186	0.024	0.266	0.074
+P08581	Hepatocyte growth factor receptor	0.322	0.28	0.066	0.222	0.064
+Q6V1X1	Dipeptidyl peptidase 8	0.322	0.496	0.38	0.368	0.29
+P51812	Ribosomal protein S6 kinase alpha-3	0.32	0.376	0.284	0.424	0.47
+O42713	Polyphenol oxidase 2	0.312	0.418	0.374	0.438	0.18
+P22303	Acetylcholinesterase	0.308	0.272	0.196	0.33	0.55
+Q13464	Rho-associated protein kinase 1	0.304	0.184	0.032	0.272	0.044
+P18089	Alpha-2B adrenergic receptor	0.302	0.34	0.244	0.414	0.54
+P00735	Prothrombin	0.3	0.276	0.416	0.27	0.336
+P41143	Delta-type opioid receptor	0.3	0.3	0.26	0.208	0.262
+P04054	Phospholipase A2	0.298	0.444	0.354	0.358	0.322
+P22086	Alpha-2C adrenergic receptor	0.296	0.33	0.256	0.304	0.61
+P35218	Carbonic anhydrase 5A, mitochondrial	0.292	0.322	0.428	0.532	0.39
+P43088	Prostaglandin F2-alpha receptor	0.292	0.218	0.604	0.34	0.288
+Q02763	Angiopoietin-1 receptor	0.292	0.256	0.066	0.19	0.068
+P43166	Carbonic anhydrase 7	0.29	0.27	0.508	0.734	0.846
+Q9Y233	cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A	0.29	0.172	0.014	0.206	0.004
+P07858	Cathepsin B	0.286	0.314	0.414	0.206	0.168
+P15917	Lethal factor	0.284	0.398	0.56	0.24	0.366
+O60240	Perilipin-1	0.282	0.33	0.724	0.366	0.524
+P07943	Aldose reductase	0.282	0.368	0.098	0.394	0.086
+P05622	Platelet-derived growth factor receptor beta	0.276	0.182	0.19	0.314	0.142
+P07900	Heat shock protein HSP 90-alpha	0.274	0.448	0.588	0.2	0.24
+P03372	Estrogen receptor	0.272	0.206	0.506	0.402	0.784
+P18031	Tyrosine-protein phosphatase non-receptor type 1	0.27	0.404	0.308	0.274	0.06
+P23280	Carbonic anhydrase 6	0.27	0.37	0.444	0.6	0.358
+Q6B856	Tubulin beta-2B chain	0.27	0.21	0.246	0.24	0.244
+P11362	Fibroblast growth factor receptor 1	0.268	0.144	0.034	0.092	0.044
+P41235	Hepatocyte nuclear factor 4-alpha	0.268	0.416	0.464	0.37	0.416
+P55212	Caspase-6	0.268	0.322	0.284	0.264	0.256
+O00311	Cell division cycle 7-related protein kinase	0.266	0.246	0.078	0.228	0.154
+P35236	Tyrosine-protein phosphatase non-receptor type 7	0.266	0.394	0.066	0.302	0.086
+P23141	Liver carboxylesterase 1	0.264	0.49	0.546	0.352	0.23
+P23443	Ribosomal protein S6 kinase beta-1	0.264	0.45	0.21	0.348	0.208
+Q9H3N8	Histamine H4 receptor	0.264	0.372	0.03	0.236	0.142
+O60674	Tyrosine-protein kinase JAK2	0.262	0.216	0.132	0.224	0.072
+P08173	Muscarinic acetylcholine receptor M4	0.258	0.266	0.432	0.268	0.406
+P21918	D(1B) dopamine receptor	0.258	0.412	0.244	0.442	0.404
+Q9ULX7	Carbonic anhydrase 14	0.256	0.234	0.518	0.682	0.548
+Q8N1Q1	Carbonic anhydrase 13	0.254	0.374	0.558	0.764	0.59
+P50130	D(1A) dopamine receptor	0.252	0.272	0.252	0.178	0.296
+P30729	D(4) dopamine receptor	0.248	0.22	0.148	0.216	0.268
+P10827	Thyroid hormone receptor alpha	0.244	0.168	0.192	0.286	0.258
+P23385	Metabotropic glutamate receptor 1	0.244	0.218	0.024	0.262	0.068
+P53350	Serine/threonine-protein kinase PLK1	0.244	0.31	0.21	0.234	0.084
+P22748	Carbonic anhydrase 4	0.242	0.248	0.754	0.708	0.42
+P35557	Glucokinase	0.242	0.112	0.044	0.126	0.038
+Q9Y2D0	Carbonic anhydrase 5B, mitochondrial	0.242	0.282	0.522	0.656	0.476
+P35354	Prostaglandin G/H synthase 2	0.24	0.282	0.402	0.288	0.438
+O00408	cGMP-dependent 3',5'-cyclic phosphodiesterase	0.236	0.258	0.248	0.236	0.092
+P16581	E-selectin	0.236	0.298	0.07	0.344	0.088
+P35228	Nitric oxide synthase, inducible	0.236	0.156	0.254	0.292	0.29
+Q99500	Sphingosine 1-phosphate receptor 3	0.236	0.326	0.302	0.184	0.192
+P08183	Multidrug resistance protein 1	0.234	0.26	0.382	0.312	0.17
+Q9HAZ1	Dual specificity protein kinase CLK4	0.234	0.252	0.218	0.228	0.122
+P26358	DNA (cytosine-5)-methyltransferase 1	0.232	0.522	0.558	0.458	0.32
+Q00G26	Perilipin-5	0.232	0.386	0.814	0.418	0.67
+Q07820	Induced myeloid leukemia cell differentiation protein Mcl-1	0.23	0.364	0.276	0.326	0.23
+P04818	Thymidylate synthase	0.228	0.19	0.196	0.212	0.27
+P01375	Tumor necrosis factor	0.226	0.334	0.29	0.338	0.144
+P11511	Aromatase	0.226	0.544	0.606	0.336	0.438
+P31751	RAC-beta serine/threonine-protein kinase	0.226	0.142	0.048	0.096	0.134
+Q3KRE8	Tubulin beta-2B chain	0.226	0.27	0.25	0.27	0.282
+P09960	Leukotriene A-4 hydrolase	0.224	0.078	0.234	0.346	0.07
+O43613	Orexin receptor type 1	0.222	0.36	0.084	0.298	0.082
+Q9UM73	ALK tyrosine kinase receptor	0.222	0.118	0.052	0.042	0.026
+Q9UKP6	Urotensin-2 receptor	0.218	0.098	0.07	0.146	0.088
+Q07912	Activated CDC42 kinase 1	0.216	0.142	0.052	0.052	0.014
+O42275	Acetylcholinesterase	0.212	0.316	0.27	0.282	0.296
+P08069	Insulin-like growth factor 1 receptor	0.212	0.174	0.128	0.276	0.318
+P00749	Urokinase-type plasminogen activator	0.21	0.168	0.162	0.234	0.148
+P08575	Receptor-type tyrosine-protein phosphatase C	0.21	0.366	0.22	0.228	0.21
+P23944	Alpha-1D adrenergic receptor	0.21	0.228	0.072	0.214	0.052
+P35353	Corticotropin-releasing factor receptor 1	0.21	0.05	0.02	0.07	0.018
+P78396	Cyclin-A1	0.208	0.338	0.182	0.142	0.096
+P81908	Cholinesterase	0.206	0.156	0.062	0.186	0.068
+P18130	Alpha-1A adrenergic receptor	0.202	0.206	0.15	0.266	0.294
+P04629	High affinity nerve growth factor receptor	0.2	0.216	0.06	0.184	0.022
+P49759	Dual specificity protein kinase CLK1	0.2	0.426	0.294	0.37	0.274
+Q08499	cAMP-specific 3',5'-cyclic phosphodiesterase 4D	0.198	0.292	0.214	0.186	0.078
+O95977	Sphingosine 1-phosphate receptor 4	0.196	0.356	0.238	0.356	0.206
+P10415	Apoptosis regulator Bcl-2	0.196	0.216	0.114	0.232	0.12
+P41279	Mitogen-activated protein kinase kinase kinase 8	0.194	0.206	0.098	0.184	0.138
+P43403	Tyrosine-protein kinase ZAP-70	0.194	0.236	0.204	0.158	0.134
+P46098	5-hydroxytryptamine receptor 3A	0.194	0.246	0.208	0.186	0.146
+Q8TDU6	G-protein coupled bile acid receptor 1	0.194	0.234	0.268	0.222	0.262
+O00763	Acetyl-CoA carboxylase 2	0.192	0.082	0.106	0.122	0.006
+P06239	Tyrosine-protein kinase Lck	0.192	0.154	0.1	0.168	0.106
+P42336	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform	0.192	0.24	0.068	0.114	0
+P42574	Caspase-3	0.192	0.182	0.138	0.154	0.028
+P00766	Chymotrypsinogen A	0.19	0.218	0.332	0.312	0.162
+P05067	Amyloid beta A4 protein	0.19	0.258	0.406	0.456	0.802
+P49840	Glycogen synthase kinase-3 alpha	0.19	0.262	0.072	0.126	0.112
+P97612	Fatty-acid amide hydrolase 1	0.19	0.214	0.356	0.346	0.636
+Q9QYJ6	cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A	0.19	0.088	0.006	0.134	0.004
+P28190	Adenosine receptor A1	0.188	0.188	0.008	0.06	0.002
+P43405	Tyrosine-protein kinase SYK	0.188	0.18	0.054	0.182	0.02
+Q16539	Mitogen-activated protein kinase 14	0.188	0.206	0.014	0.062	0.002
+P08912	Muscarinic acetylcholine receptor M5	0.186	0.214	0.364	0.148	0.226
+P20648	Potassium-transporting ATPase alpha chain 1	0.186	0.248	0.134	0.318	0.084
+P47936	Cannabinoid receptor 2	0.184	0.258	0.706	0.3	0.454
+P34913	Bifunctional epoxide hydrolase 2	0.182	0.116	0.076	0.112	0.032
+Q15858	Sodium channel protein type 9 subunit alpha	0.182	0.12	0.036	0.1	0.03
+Q9H228	Sphingosine 1-phosphate receptor 5	0.182	0.266	0.09	0.07	0.034
+P19099	Cytochrome P450 11B2, mitochondrial	0.18	0.552	0.036	0.342	0.088
+P24941	Cyclin-dependent kinase 2	0.18	0.1	0.01	0.026	0.002
+P51685	C-C chemokine receptor type 8	0.18	0.124	0.056	0.168	0.07
+Q494W8	CHRNA7-FAM7A fusion protein	0.178	0.24	0.128	0.268	0.358
+P37058	Testosterone 17-beta-dehydrogenase 3	0.176	0.148	0.552	0.17	0.262
+P23458	Tyrosine-protein kinase JAK1	0.174	0.216	0.078	0.176	0.082
+Q06187	Tyrosine-protein kinase BTK	0.174	0.24	0.136	0.21	0.1
+P07308	Acyl-CoA desaturase 1	0.172	0.39	0.074	0.17	0.02
+P23795	Acetylcholinesterase	0.172	0.234	0.244	0.194	0.2
+P35439	Glutamate receptor ionotropic, NMDA 1	0.172	0.24	0.256	0.212	0.206
+P43140	Alpha-1A adrenergic receptor	0.172	0.152	0.05	0.104	0.056
+O43570	Carbonic anhydrase 12	0.17	0.304	0.426	0.788	0.83
+O96020	G1/S-specific cyclin-E2	0.17	0.106	0.042	0.06	0.022
+P36544	Neuronal acetylcholine receptor subunit alpha-7	0.168	0.234	0.244	0.294	0.422
+Q9UBN7	Histone deacetylase 6	0.168	0.336	0.298	0.242	0.21
+O00767	Acyl-CoA desaturase	0.166	0.3	0.06	0.17	0.058
+P52732	Kinesin-like protein KIF11	0.166	0.236	0.174	0.382	0.546
+P09483	Neuronal acetylcholine receptor subunit alpha-4	0.164	0.192	0.258	0.24	0.154
+P21980	Protein-glutamine gamma-glutamyltransferase 2	0.164	0.288	0.274	0.142	0.174
+Q923Y8	Trace amine-associated receptor 1	0.164	0.13	0.08	0.158	0.356
+O95180	Voltage-dependent T-type calcium channel subunit alpha-1H	0.162	0.3	0.076	0.266	0.076
+P11387	DNA topoisomerase 1	0.162	0.134	0.088	0.134	0.102
+P12268	Inosine-5'-monophosphate dehydrogenase 2	0.162	0.212	0.114	0.272	0.166
+Q13946	High affinity cAMP-specific 3',5'-cyclic phosphodiesterase 7A	0.162	0.118	0.118	0.15	0.192
+O14842	Free fatty acid receptor 1	0.16	0.104	0.238	0.11	0.21
+P07711	Cathepsin L1	0.16	0.134	0.19	0.106	0.044
+P08483	Muscarinic acetylcholine receptor M3	0.16	0.296	0.364	0.172	0.282
+Q99685	Monoglyceride lipase	0.16	0.36	0.34	0.208	0.154
+P16753	Capsid scaffolding protein	0.158	0.154	0.116	0.144	0.084
+P31749	RAC-alpha serine/threonine-protein kinase	0.158	0.198	0.054	0.104	0.04
+P00374	Dihydrofolate reductase	0.156	0.12	0.032	0.074	0
+P00918	Carbonic anhydrase 2	0.156	0.348	0.178	0.654	0.484
+Q07343	cAMP-specific 3',5'-cyclic phosphodiesterase 4B	0.156	0.2	0.092	0.208	0.022
+O96017	Serine/threonine-protein kinase Chk2	0.152	0.236	0.16	0.154	0.088
+P16184	Dihydrofolate reductase	0.152	0.036	0.032	0.092	0.03
+P25929	Neuropeptide Y receptor type 1	0.152	0.292	0.084	0.156	0.062
+P21453	Sphingosine 1-phosphate receptor 1	0.15	0.394	0.208	0.288	0.03
+P47898	5-hydroxytryptamine receptor 5A	0.15	0.238	0.28	0.264	0.1
+Q8TDV5	Glucose-dependent insulinotropic receptor	0.148	0.128	0.08	0.09	0.01
+Q9GZU7	Carboxy-terminal domain RNA polymerase II polypeptide A small phosphatase 1	0.148	0.414	0.476	0.368	0.34
+P00491	Purine nucleoside phosphorylase	0.146	0.102	0.056	0.13	0.046
+Q07817	Bcl-2-like protein 1	0.146	0.174	0.034	0.072	0.034
+Q92769	Histone deacetylase 2	0.146	0.272	0.256	0.092	0.148
+Q9BY41	Histone deacetylase 8	0.146	0.198	0.098	0.118	0.174
+P14061	Estradiol 17-beta-dehydrogenase 1	0.144	0.11	0.054	0.212	0.338
+P14555	Phospholipase A2, membrane associated	0.144	0.108	0.554	0.15	0.044
+P25021	Histamine H2 receptor	0.144	0.28	0.13	0.166	0.074
+P13922	Bifunctional dihydrofolate reductase-thymidylate synthase	0.142	0.194	0.122	0.134	0.05
+P48145	Neuropeptides B/W receptor type 1	0.142	0.144	0.156	0.108	0.14
+P49146	Neuropeptide Y receptor type 2	0.142	0.288	0.052	0.136	0.086
+P00915	Carbonic anhydrase 1	0.14	0.232	0.246	0.66	0.534
+P06493	Cyclin-dependent kinase 1	0.14	0.17	0.026	0.146	0.022
+Q9QZN9	Cannabinoid receptor 2	0.14	0.284	0.7	0.28	0.19
+P15538	Cytochrome P450 11B1, mitochondrial	0.138	0.628	0.026	0.252	0.066
+P50613	Cyclin-dependent kinase 7	0.138	0.272	0.256	0.26	0.134
+P14780	Matrix metalloproteinase-9	0.136	0.146	0.118	0.21	0.436
+Q00975	Voltage-dependent N-type calcium channel subunit alpha-1B	0.136	0.268	0.398	0.194	0.174
+P10828	Thyroid hormone receptor beta	0.134	0.112	0.136	0.156	0.104
+P12527	Arachidonate 5-lipoxygenase	0.134	0.294	0.18	0.312	0.158
+P29475	Nitric oxide synthase, brain	0.134	0.172	0.114	0.154	0.128
+P48039	Melatonin receptor type 1A	0.134	0.08	0.034	0.138	0.15
+P49286	Melatonin receptor type 1B	0.134	0.108	0.042	0.156	0.206
+P10275	Androgen receptor	0.132	0.162	0.452	0.272	0.3
+P31388	5-hydroxytryptamine receptor 6	0.132	0.15	0.054	0.136	0.068
+P39900	Macrophage metalloelastase	0.132	0.232	0.274	0.166	0.118
+Q05941	Neuronal acetylcholine receptor subunit alpha-7	0.132	0.17	0.216	0.148	0.052
+Q920D2	Dihydrofolate reductase	0.132	0.046	0.046	0.038	0.004
+P13866	Sodium/glucose cotransporter 1	0.13	0.142	0.284	0.134	0.076
+P25099	Adenosine receptor A1	0.13	0.198	0.138	0.11	0.052
+P31390	Histamine H1 receptor	0.13	0.314	0.112	0.202	0.136
+P42330	Aldo-keto reductase family 1 member C3	0.13	0.29	0.33	0.11	0.038
+P42345	Serine/threonine-protein kinase mTOR	0.13	0.11	0.05	0.088	0.024
+P14324	Farnesyl pyrophosphate synthase	0.128	0.2	0.132	0.138	0.096
+P35367	Histamine H1 receptor	0.128	0.256	0.086	0.122	0.106
+P61073	C-X-C chemokine receptor type 4	0.128	0.252	0.076	0.164	0.19
+Q60492	Sigma non-opioid intracellular receptor 1	0.128	0.102	0.16	0.106	0.202
+P10980	Muscarinic acetylcholine receptor M2	0.126	0.216	0.36	0.188	0.238
+Q15759	Mitogen-activated protein kinase 11	0.126	0.382	0.18	0.256	0.172
+O00329	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform	0.124	0.148	0.036	0.236	0.002
+P08588	Beta-1 adrenergic receptor	0.124	0.052	0.028	0.076	0.018
+P31389	Histamine H1 receptor	0.124	0.346	0.074	0.166	0.148
+P42262	Glutamate receptor 2	0.124	0.408	0.264	0.206	0.192
+Q13639	5-hydroxytryptamine receptor 4	0.124	0.064	0.086	0.144	0.054
+Q9NWZ3	Interleukin-1 receptor-associated kinase 4	0.124	0.23	0.11	0.16	0.036
+O00519	Fatty-acid amide hydrolase 1	0.122	0.21	0.544	0.132	0.094
+P13726	Tissue factor	0.122	0.184	0.084	0.158	0.112
+P18901	D(1A) dopamine receptor	0.122	0.186	0.066	0.158	0.198
+Q01959	Sodium-dependent dopamine transporter	0.122	0.198	0.34	0.172	0.342
+Q02750	Dual specificity mitogen-activated protein kinase kinase 1	0.122	0.206	0.062	0.176	0.034
+O15530	3-phosphoinositide-dependent protein kinase 1	0.12	0.098	0.06	0.092	0.024
+P15207	Androgen receptor	0.12	0.148	0.532	0.182	0.108
+P37136	Acetylcholinesterase	0.116	0.288	0.158	0.22	0.204
+O96013	Serine/threonine-protein kinase PAK 4	0.114	0.324	0.34	0.188	0.112
+P00797	Renin	0.114	0.128	0.018	0.084	0.004
+P37231	Peroxisome proliferator-activated receptor gamma	0.114	0.342	0.372	0.178	0.142
+Q9R0C9	Sigma non-opioid intracellular receptor 1	0.114	0.114	0.138	0.102	0.156
+Q14416	Metabotropic glutamate receptor 2	0.112	0.278	0.142	0.13	0.034
+P08235	Mineralocorticoid receptor	0.11	0.204	0.512	0.222	0.09
+P50750	Cyclin-dependent kinase 9	0.11	0.194	0.236	0.17	0.112
+Q13224	Glutamate receptor ionotropic, NMDA 2B	0.11	0.23	0.158	0.12	0.11
+O75907	Diacylglycerol O-acyltransferase 1	0.106	0.254	0.058	0.102	0.022
+P21451	Endothelin B receptor	0.106	0.17	0.074	0.104	0.048
+P25100	Alpha-1D adrenergic receptor	0.106	0.176	0.1	0.12	0.054
+P27815	cAMP-specific 3',5'-cyclic phosphodiesterase 4A	0.106	0.146	0.026	0.174	0.03
+P28564	5-hydroxytryptamine receptor 1B	0.106	0.108	0.102	0.132	0.032
+P56658	Adenosine deaminase	0.106	0.162	0.108	0.064	0.048
+Q13093	Platelet-activating factor acetylhydrolase	0.106	0.042	0.144	0.024	0.002
+P19020	D(3) dopamine receptor	0.104	0.11	0.082	0.04	0.054
+P28221	5-hydroxytryptamine receptor 1D	0.104	0.126	0.068	0.138	0.046
+Q02156	Protein kinase C epsilon type	0.104	0.126	0.312	0.162	0.04
+Q05655	Protein kinase C delta type	0.104	0.158	0.518	0.066	0.05
+Q15761	Neuropeptide Y receptor type 5	0.104	0.096	0.022	0.054	0.006
+Q28156	cGMP-specific 3',5'-cyclic phosphodiesterase	0.104	0.136	0.114	0.09	0.048
+Q92731	Estrogen receptor beta	0.104	0.16	0.486	0.26	0.354
+Q9GZT9	Egl nine homolog 1	0.104	0.248	0.176	0.158	0.128
+P55263	Adenosine kinase	0.102	0.056	0.008	0.008	0
+Q07869	Peroxisome proliferator-activated receptor alpha	0.102	0.098	0.194	0.184	0.092
+Q62758	5-hydroxytryptamine receptor 4	0.102	0.162	0.086	0.08	0.032
+P05362	Intercellular adhesion molecule 1	0.1	0.138	0.202	0.146	0
+P45983	Mitogen-activated protein kinase 8	0.1	0.17	0.04	0.076	0.014
+P49841	Glycogen synthase kinase-3 beta	0.098	0.274	0.134	0.156	0.042
+Q00960	Glutamate receptor ionotropic, NMDA 2B	0.098	0.12	0.082	0.18	0.096
+Q9JI35	Histamine H3 receptor	0.098	0.226	0.066	0.288	0.102
+P05093	Steroid 17-alpha-hydroxylase/17,20 lyase	0.096	0.436	0.592	0.226	0.202
+O00748	Cocaine esterase	0.094	0.212	0.374	0.17	0.19
+P12822	Angiotensin-converting enzyme	0.094	0.126	0.086	0.08	0.018
+P42338	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform	0.094	0.18	0.042	0.148	0.006
+P56817	Beta-secretase 1	0.094	0.192	0.05	0.066	0.096
+P09874	Poly [ADP-ribose] polymerase 1	0.092	0.168	0.012	0.076	0.03
+P13516	Acyl-CoA desaturase 1	0.092	0.054	0.032	0.126	0.034
+P22460	Potassium voltage-gated channel subfamily A member 5	0.092	0.21	0.054	0.104	0.028
+P30542	Adenosine receptor A1	0.092	0.2	0.008	0.056	0.012
+P30939	5-hydroxytryptamine receptor 1F	0.092	0.184	0.094	0.184	0.112
+P34975	Kappa-type opioid receptor	0.092	0.184	0.486	0.088	0.148
+P08172	Muscarinic acetylcholine receptor M2	0.09	0.194	0.134	0.084	0.106
+P29274	Adenosine receptor A2a	0.09	0.212	0.03	0.106	0.012
+P49137	MAP kinase-activated protein kinase 2	0.09	0.148	0.062	0.134	0.05
+O43497	Voltage-dependent T-type calcium channel subunit alpha-1G	0.088	0.15	0.096	0.088	0.124
+P08482	Muscarinic acetylcholine receptor M1	0.088	0.2	0.108	0.092	0.068
+P13631	Retinoic acid receptor gamma	0.088	0.276	0.444	0.074	0.122
+Q8NER1	Transient receptor potential cation channel subfamily V member 1	0.088	0.116	0.344	0.144	0.076
+P08238	Heat shock protein HSP 90-beta	0.086	0.168	0.134	0.132	0.028
+P15121	Aldose reductase	0.086	0.198	0.114	0.232	0.124
+P23975	Sodium-dependent noradrenaline transporter	0.086	0.16	0.078	0.17	0.132
+P41231	P2Y purinoceptor 2	0.086	0.11	0.088	0.086	0.04
+P52333	Tyrosine-protein kinase JAK3	0.086	0.148	0.024	0.068	0.01
+P11086	Phenylethanolamine N-methyltransferase	0.084	0.218	0.116	0.064	0.044
+P11309	Serine/threonine-protein kinase pim-1	0.084	0.184	0.012	0.068	0.052
+P40238	Thrombopoietin receptor	0.084	0.102	0.038	0.066	0.02
+P08909	5-hydroxytryptamine receptor 2C	0.082	0.168	0.07	0.142	0.076
+Q02769	Squalene synthase	0.082	0.118	0.278	0.112	0.17
+P05771	Protein kinase C beta type	0.08	0.156	0.338	0.066	0.062
+P11802	Cyclin-dependent kinase 4	0.08	0.144	0.034	0.042	0.012
+P31645	Sodium-dependent serotonin transporter	0.08	0.228	0.066	0.246	0.254
+P34972	Cannabinoid receptor 2	0.08	0.308	0.396	0.252	0.084
+P43681	Neuronal acetylcholine receptor subunit alpha-4	0.08	0.176	0.206	0.156	0.05
+P33765	Adenosine receptor A3	0.078	0.16	0.056	0.068	0.02
+P30543	Adenosine receptor A2a	0.076	0.182	0.038	0.084	0.016
+P30556	Type-1 angiotensin II receptor	0.076	0.73	0.024	0.118	0.05
+P34998	Corticotropin-releasing factor receptor 1	0.076	0.172	0.014	0.052	0.018
+P48736	Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform	0.076	0.16	0.086	0.156	0.018
+Q13133	Oxysterols receptor LXR-alpha	0.076	0.228	0.458	0.234	0.25
+P32247	Bombesin receptor subtype-3	0.074	0.262	0.048	0.088	0.012
+P37059	Estradiol 17-beta-dehydrogenase 2	0.074	0.306	0.384	0.232	0.116
+Q13258	Prostaglandin D2 receptor	0.074	0.106	0.21	0.042	0.028
+Q9Y5Y4	Prostaglandin D2 receptor 2	0.074	0.168	0.13	0.086	0.016
+P21836	Acetylcholinesterase	0.072	0.182	0.186	0.192	0.108
+P23978	Sodium- and chloride-dependent GABA transporter 1	0.072	0.142	0.09	0.064	0.04
+P25025	C-X-C chemokine receptor type 2	0.072	0.112	0.034	0.082	0.038
+P28222	5-hydroxytryptamine receptor 1B	0.072	0.078	0.024	0.12	0.002
+P05129	Protein kinase C gamma type	0.07	0.144	0.476	0.076	0.032
+P31648	Sodium- and chloride-dependent GABA transporter 1	0.07	0.162	0.186	0.07	0.07
+P43116	Prostaglandin E2 receptor EP2 subtype	0.07	0.316	0.466	0.214	0.122
+P70536	Oxytocin receptor	0.07	0.114	0.078	0.082	0.064
+Q02127	Dihydroorotate dehydrogenase (quinone), mitochondrial	0.07	0.356	0.082	0.192	0.05
+Q05469	Hormone-sensitive lipase	0.07	0.08	0.054	0.072	0.014
+O15379	Histone deacetylase 3	0.068	0.3	0.276	0.16	0.202
+P08246	Neutrophil elastase	0.068	0.14	0.3	0.112	0.136
+P08842	Steryl-sulfatase	0.068	0.138	0.144	0.114	0.056
+P25024	C-X-C chemokine receptor type 1	0.068	0.192	0.106	0.046	0.022
+P48147	Prolyl endopeptidase	0.068	0.22	0.346	0.122	0.11
+P50172	Corticosteroid 11-beta-dehydrogenase isozyme 1	0.068	0.248	0.566	0.18	0.126
+Q99808	Equilibrative nucleoside transporter 1	0.068	0.056	0.018	0.024	0.014
+P11229	Muscarinic acetylcholine receptor M1	0.066	0.264	0.142	0.108	0.038
+P20288	D(2) dopamine receptor	0.066	0.176	0.134	0.086	0.056
+P30559	Oxytocin receptor	0.066	0.176	0.128	0.1	0.048
+P35563	5-hydroxytryptamine receptor 3A	0.066	0.204	0.25	0.22	0.054
+P46925	Plasmepsin-2	0.066	0.194	0.062	0.142	0.048
+Q15077	P2Y purinoceptor 6	0.066	0.066	0.02	0.044	0.024
+P14842	5-hydroxytryptamine receptor 2A	0.064	0.086	0.024	0.046	0.012
+P23977	Sodium-dependent dopamine transporter	0.064	0.122	0.02	0.07	0.028
+P28223	5-hydroxytryptamine receptor 2A	0.064	0.082	0.07	0.1	0.078
+P28647	Adenosine receptor A3	0.064	0.1	0.04	0.07	0.018
+P43235	Cathepsin K	0.064	0.194	0.186	0.072	0.052
+P50579	Methionine aminopeptidase 2	0.064	0.132	0.472	0.08	0.066
+P00734	Prothrombin	0.062	0.23	0.446	0.198	0.044
+P10826	Retinoic acid receptor beta	0.062	0.144	0.29	0.078	0.094
+P31421	Metabotropic glutamate receptor 2	0.062	0.072	0.168	0.052	0.01
+Q04609	Glutamate carboxypeptidase 2	0.062	0.226	0.374	0.112	0.104
+P06401	Progesterone receptor	0.06	0.198	0.492	0.1	0.022
+P11597	Cholesteryl ester transfer protein	0.06	0.134	0.126	0.062	0.044
+P20309	Muscarinic acetylcholine receptor M3	0.06	0.25	0.094	0.048	0.066
+P34969	5-hydroxytryptamine receptor 7	0.06	0.076	0.028	0.126	0.024
+P42892	Endothelin-converting enzyme 1	0.06	0.2	0.148	0.086	0.028
+P61169	D(2) dopamine receptor	0.06	0.038	0.008	0.014	0.012
+Q15078	Cyclin-dependent kinase 5 activator 1	0.06	0.17	0.03	0.102	0.024
+Q8TDS4	Hydroxycarboxylic acid receptor 2	0.06	0.184	0.234	0.056	0.028
+P08908	5-hydroxytryptamine receptor 1A	0.058	0.134	0.058	0.098	0.016
+P20272	Cannabinoid receptor 1	0.058	0.202	0.412	0.082	0.056
+P28335	5-hydroxytryptamine receptor 2C	0.058	0.158	0.176	0.152	0.026
+P28845	Corticosteroid 11-beta-dehydrogenase isozyme 1	0.058	0.262	0.632	0.12	0.036
+Q64663	P2X purinoceptor 7	0.058	0.29	0.09	0.062	0.016
+Q86V86	Serine/threonine-protein kinase pim-3	0.058	0.168	0.086	0.14	0.07
+Q969F8	KiSS-1 receptor	0.058	0.05	0.01	0.018	0.004
+O35433	Transient receptor potential cation channel subfamily V member 1	0.056	0.096	0.15	0.054	0.002
+P00375	Dihydrofolate reductase	0.056	0.024	0.006	0.016	0.01
+P16257	Translocator protein	0.056	0.216	0.016	0.026	0.016
+P35348	Alpha-1A adrenergic receptor	0.056	0.108	0.08	0.054	0.01
+P48443	Retinoic acid receptor RXR-gamma	0.056	0.158	0.39	0.09	0.08
+O14920	Inhibitor of nuclear factor kappa-B kinase subunit beta	0.054	0.216	0.052	0.2	0.048
+O60725	Protein-S-isoprenylcysteine O-methyltransferase	0.054	0.244	0.076	0.122	0.01
+P13612	Integrin alpha-4	0.054	0.168	0.412	0.088	0.082
+P25105	Platelet-activating factor receptor	0.054	0.216	0.408	0.07	0.028
+P31213	3-oxo-5-alpha-steroid 4-dehydrogenase 2	0.054	0.164	0.542	0.14	0.142
+P35462	D(3) dopamine receptor	0.054	0.182	0.034	0.138	0.124
+P09237	Matrilysin	0.052	0.072	0.018	0.096	0.008
+P10276	Retinoic acid receptor alpha	0.052	0.148	0.21	0.11	0.094
+P22001	Potassium voltage-gated channel subfamily A member 3	0.052	0.194	0.534	0.18	0.13
+P28702	Retinoic acid receptor RXR-beta	0.052	0.098	0.204	0.048	0.022
+P43115	Prostaglandin E2 receptor EP3 subtype	0.052	0.184	0.254	0.096	0.052
+P98170	E3 ubiquitin-protein ligase XIAP	0.052	0.082	0.154	0.076	0.058
+Q07422	Bifunctional dihydrofolate reductase-thymidylate synthase	0.052	0.034	0.02	0.028	0.002
+Q08881	Tyrosine-protein kinase ITK/TSK	0.052	0.13	0.032	0.074	0.01
+P08253	72 kDa type IV collagenase	0.05	0.048	0.02	0.14	0.17
+P25101	Endothelin-1 receptor	0.05	0.056	0.032	0.018	0.006
+P47811	Mitogen-activated protein kinase 14	0.05	0.23	0.028	0.046	0.01
+Q00535	Cyclin-dependent kinase 5	0.05	0.188	0.098	0.11	0.074
+P14416	D(2) dopamine receptor	0.048	0.16	0.01	0.1	0.042
+P25774	Cathepsin S	0.048	0.148	0.064	0.046	0.006
+P30291	Wee1-like protein kinase	0.048	0.086	0.04	0.058	0.012
+P30874	Somatostatin receptor type 2	0.048	0.14	0.044	0.018	0
+P35408	Prostaglandin E2 receptor EP4 subtype	0.048	0.158	0.26	0.092	0.044
+P37288	Vasopressin V1a receptor	0.048	0.13	0.17	0.082	0.056
+P55210	Caspase-7	0.048	0.054	0.028	0.024	0.018
+Q03181	Peroxisome proliferator-activated receptor delta	0.048	0.062	0.126	0.112	0.012
+Q9QYN8	Histamine H3 receptor	0.048	0.244	0.094	0.126	0.01
+P32246	C-C chemokine receptor type 1	0.046	0.04	0.028	0.09	0.048
+P34995	Prostaglandin E2 receptor EP1 subtype	0.046	0.216	0.292	0.086	0.03
+P42785	Lysosomal Pro-X carboxypeptidase	0.046	0.162	0.06	0.082	0.024
+P50406	5-hydroxytryptamine receptor 6	0.046	0.052	0.022	0.184	0.028
+Q9Y5N1	Histamine H3 receptor	0.046	0.288	0.048	0.126	0.028
+P07477	Trypsin-1	0.044	0.128	0.346	0.11	0.014
+P30518	Vasopressin V2 receptor	0.044	0.118	0.006	0.016	0.016
+P30553	Gastrin/cholecystokinin type B receptor	0.044	0.204	0.078	0.088	0.012
+P37268	Squalene synthase	0.044	0.108	0.166	0.084	0.084
+P41180	Extracellular calcium-sensing receptor	0.044	0.144	0.026	0.114	0.026
+Q15722	Leukotriene B4 receptor 1	0.044	0.186	0.236	0.146	0.074
+Q5RAG0	Histone deacetylase 1	0.044	0.21	0.272	0.022	0.01
+Q96RI1	Bile acid receptor	0.044	0.058	0.292	0.052	0.116
+P08514	Integrin alpha-IIb	0.042	0.04	0.032	0.026	0.012
+P24557	Thromboxane-A synthase	0.042	0.11	0.046	0.034	0
+P41149	Melanocortin receptor 5	0.042	0.054	0.036	0.054	0.052
+P45452	Collagenase 3	0.042	0.138	0.044	0.092	0.004
+Q29010	Endothelin-1 receptor	0.042	0.1	0.024	0.038	0.018
+Q7TMR0	Lysosomal Pro-X carboxypeptidase	0.042	0.222	0.038	0.044	0.026
+P07339	Cathepsin D	0.04	0.078	0.04	0.05	0.004
+P13945	Beta-3 adrenergic receptor	0.04	0.016	0.002	0.028	0.004
+P18405	3-oxo-5-alpha-steroid 4-dehydrogenase 1	0.04	0.076	0.578	0.036	0.094
+P27487	Dipeptidyl peptidase 4	0.04	0.104	0.008	0.022	0.008
+P32305	5-hydroxytryptamine receptor 7	0.04	0.088	0.046	0.062	0.006
+P35368	Alpha-1B adrenergic receptor	0.04	0.19	0.054	0.074	0.062
+P46663	B1 bradykinin receptor	0.04	0.088	0.014	0.032	0.006
+P56450	Melanocortin receptor 4	0.04	0.108	0.056	0.052	0.04
+Q99720	Sigma non-opioid intracellular receptor 1	0.04	0.128	0.284	0.124	0.148
+O95822	Malonyl-CoA decarboxylase, mitochondrial	0.038	0.146	0.032	0.052	0.018
+P00742	Coagulation factor X	0.038	0.042	0.006	0.068	0.01
+P23946	Chymase	0.038	0.062	0.062	0.102	0.006
+P26684	Endothelin-1 receptor	0.038	0.044	0.008	0.016	0.006
+P50052	Type-2 angiotensin II receptor	0.038	0.404	0.006	0.02	0
+Q62053	Prostaglandin E2 receptor EP2 subtype	0.038	0.1	0.336	0.044	0.07
+P14740	Dipeptidyl peptidase 4	0.036	0.086	0.142	0.042	0.014
+P21731	Thromboxane A2 receptor	0.036	0.118	0.214	0.034	0
+P25116	Proteinase-activated receptor 1	0.036	0.084	0.148	0.02	0.004
+P30560	Vasopressin V1a receptor	0.036	0.032	0.008	0.046	0.016
+P31652	Sodium-dependent serotonin transporter	0.036	0.138	0.236	0.062	0.01
+P49430	Thromboxane-A synthase	0.036	0.118	0.012	0.17	0.004
+Q13547	Histone deacetylase 1	0.036	0.128	0.298	0.012	0.012
+Q29463	Anionic trypsin	0.036	0.054	0.09	0.024	0.016
+Q99835	Smoothened homolog	0.036	0.034	0.088	0.028	0.008
+Q9Y5Z0	Beta-secretase 2	0.036	0.09	0.02	0.026	0
+P29466	Caspase-1	0.034	0.15	0.182	0.074	0.104
+P35610	Sterol O-acyltransferase 1	0.034	0.16	0.144	0.074	0.01
+P62942	Peptidyl-prolyl cis-trans isomerase FKBP1A	0.034	0.06	0.12	0.032	0.006
+Q99705	Melanin-concentrating hormone receptor 1	0.034	0.064	0.002	0.052	0.002
+Q9P1W9	Serine/threonine-protein kinase pim-2	0.034	0.178	0.024	0.12	0.028
+O70536	Sterol O-acyltransferase 1	0.032	0.184	0.02	0.098	0.036
+O77636	Disintegrin and metalloproteinase domain-containing protein 17	0.032	0.064	0.01	0.018	0
+P07607	Thymidylate synthase	0.032	0.052	0.022	0.028	0
+P21917	D(4) dopamine receptor	0.032	0.128	0.044	0.054	0.026
+P30557	Prostaglandin E2 receptor EP3 subtype	0.032	0.118	0.056	0.058	0.03
+P31391	Somatostatin receptor type 4	0.032	0.136	0.048	0.032	0.002
+P49810	Presenilin-2	0.032	0.058	0.116	0.05	0
+P51661	Corticosteroid 11-beta-dehydrogenase isozyme 2	0.032	0.336	0.154	0.038	0.004
+Q99572	P2X purinoceptor 7	0.032	0.266	0.03	0.084	0.012
+O43614	Orexin receptor type 2	0.03	0.124	0.016	0.02	0
+P20292	Arachidonate 5-lipoxygenase-activating protein	0.03	0.116	0.042	0.044	0.026
+P32300	Delta-type opioid receptor	0.03	0.202	0.256	0.074	0.07
+P33032	Melanocortin receptor 5	0.03	0.05	0.038	0.036	0.008
+P48067	Sodium- and chloride-dependent glycine transporter 1	0.03	0.114	0.002	0.076	0.042
+P19793	Retinoic acid receptor RXR-alpha	0.028	0.122	0.266	0.034	0.098
+P30411	B2 bradykinin receptor	0.028	0.05	0.034	0.04	0.006
+P36897	TGF-beta receptor type-1	0.028	0.17	0.026	0.064	0.006
+P42866	Mu-type opioid receptor	0.028	0.076	0.03	0.036	0.024
+P53609	Geranylgeranyl transferase type-1 subunit beta	0.028	0.266	0.176	0.024	0.002
+Q14790	Caspase-8	0.028	0.072	0.044	0.03	0.01
+P04150	Glucocorticoid receptor	0.026	0.108	0.558	0.056	0.028
+P08254	Stromelysin-1	0.026	0.08	0.012	0.08	0.004
+P19320	Vascular cell adhesion protein 1	0.026	0.082	0.044	0.108	0.008
+P97266	Mu-type opioid receptor	0.026	0.106	0.074	0.056	0.07
+Q00788	Vasopressin V2 receptor	0.026	0.082	0.01	0.03	0
+O14672	Disintegrin and metalloproteinase domain-containing protein 10	0.024	0.09	0.03	0.024	0.014
+P00760	Cationic trypsin	0.024	0.116	0.046	0.098	0.026
+P29275	Adenosine receptor A2b	0.024	0.146	0.024	0.068	0.012
+P30872	Somatostatin receptor type 1	0.024	0.108	0.046	0.038	0.014
+P35346	Somatostatin receptor type 5	0.024	0.088	0.05	0.082	0.006
+P62943	Peptidyl-prolyl cis-trans isomerase FKBP1A	0.024	0.05	0.214	0.028	0.022
+Q92542	Nicastrin	0.024	0.034	0.148	0.048	0.004
+P03956	Interstitial collagenase	0.022	0.07	0.034	0.042	0.156
+P21452	Substance-K receptor	0.022	0.074	0.012	0.01	0.002
+P24530	Endothelin B receptor	0.022	0.062	0.016	0.012	0.004
+P31639	Sodium/glucose cotransporter 2	0.022	0.044	0.112	0.048	0.01
+P49768	Presenilin-1	0.022	0.028	0.112	0.042	0.004
+Q15661	Tryptase alpha/beta-1	0.022	0.104	0.02	0.054	0.006
+Q8WW43	Gamma-secretase subunit APH-1B	0.022	0.052	0.1	0.082	0.006
+Q9H244	P2Y purinoceptor 12	0.022	0.038	0.038	0.054	0
+P19634	Sodium/hydrogen exchanger 1	0.02	0.114	0.016	0.054	0.004
+P30968	Gonadotropin-releasing hormone receptor	0.02	0.07	0.002	0.026	0
+P35463	Endothelin B receptor	0.02	0.078	0.032	0.06	0.006
+P41144	Kappa-type opioid receptor	0.02	0.128	0.138	0.016	0.026
+P41597	C-C chemokine receptor type 2	0.02	0.114	0.026	0.018	0.006
+Q04631	Protein farnesyltransferase/geranylgeranyltransferase type-1 subunit alpha	0.02	0.288	0.15	0.034	0.012
+P32238	Cholecystokinin receptor type A	0.018	0.084	0.06	0.016	0.004
+P41968	Melanocortin receptor 3	0.018	0.046	0.024	0.022	0.006
+P47871	Glucagon receptor	0.018	0.148	0.03	0.038	0.004
+P49682	C-X-C chemokine receptor type 3	0.018	0.08	0.042	0.06	0.01
+P78536	Disintegrin and metalloproteinase domain-containing protein 17	0.018	0.036	0.004	0.046	0
+Q9Y271	Cysteinyl leukotriene receptor 1	0.018	0.092	0.054	0.068	0.014
+P12821	Angiotensin-converting enzyme	0.016	0.196	0.072	0.014	0.004
+P14600	Substance-P receptor	0.016	0.082	0.07	0.018	0.018
+P21554	Cannabinoid receptor 1	0.016	0.33	0.264	0.16	0.016
+P34976	Type-1 angiotensin II receptor	0.016	0.42	0.004	0.01	0
+P41145	Kappa-type opioid receptor	0.016	0.178	0.286	0.112	0.006
+Q92847	Growth hormone secretagogue receptor type 1	0.016	0.058	0	0.02	0
+P19327	5-hydroxytryptamine receptor 1A	0.014	0.064	0.01	0.034	0.002
+P29371	Neuromedin-K receptor	0.014	0.088	0.008	0.018	0.01
+P32240	Prostaglandin E2 receptor EP4 subtype	0.014	0.104	0.132	0.042	0.004
+P32745	Somatostatin receptor type 3	0.014	0.108	0.05	0.016	0
+P33533	Delta-type opioid receptor	0.014	0.084	0.104	0.014	0.01
+P35372	Mu-type opioid receptor	0.014	0.064	0.124	0.022	0.008
+P41146	Nociceptin receptor	0.014	0.062	0.026	0.018	0.002
+Q96BI3	Gamma-secretase subunit APH-1A	0.014	0.042	0.104	0.062	0
+P05106	Integrin beta-3	0.012	0.048	0.004	0.014	0.006
+P06756	Integrin alpha-V	0.012	0.018	0.008	0.018	0
+P07478	Trypsin-2	0.012	0.132	0.044	0.102	0.002
+P08473	Neprilysin	0.012	0.092	0.036	0.016	0.002
+P13497	Bone morphogenetic protein 1	0.012	0.04	0.002	0.01	0
+P18084	Integrin beta-5	0.012	0.036	0.01	0.016	0.008
+P22894	Neutrophil collagenase	0.012	0.036	0.02	0.052	0.008
+P62993	Growth factor receptor-bound protein 2	0.012	0.054	0.042	0.018	0.004
+Q01727	Melanocyte-stimulating hormone receptor	0.012	0.038	0.004	0.008	0.004
+Q04759	Protein kinase C theta type	0.012	0.122	0.34	0.094	0.034
+Q9NZ42	Gamma-secretase subunit PEN-2	0.012	0.044	0.134	0.058	0.012
+P04035	3-hydroxy-3-methylglutaryl-coenzyme A reductase	0.008	0.07	0.802	0.068	0.022
+P06737	Glycogen phosphorylase, liver form	0.008	0.044	0.038	0.008	0.004
+P07861	Neprilysin	0.008	0.102	0.144	0.028	0.002
+P20701	Integrin alpha-L	0.008	0.082	0.306	0.034	0.004
+P25103	Substance-P receptor	0.008	0.088	0.004	0.004	0
+P30551	Cholecystokinin receptor type A	0.008	0.064	0.044	0.026	0.008
+P30969	Gonadotropin-releasing hormone receptor	0.008	0.066	0.002	0.032	0.002
+P32239	Gastrin/cholecystokinin type B receptor	0.008	0.018	0.018	0.004	0
+P09958	Furin	0.006	0.028	0.034	0.026	0.018
+P20231	Tryptase beta-2	0.006	0.05	0.024	0.028	0.002
+P29089	Type-1B angiotensin II receptor	0.006	0.278	0.014	0.002	0
+P32245	Melanocortin receptor 4	0.006	0.066	0.014	0.012	0
+P33535	Mu-type opioid receptor	0.006	0.126	0.274	0.032	0.014
+P35351	Type-2 angiotensin II receptor	0.006	0.254	0.006	0.04	0.004
+P51677	C-C chemokine receptor type 3	0.006	0.032	0.024	0.018	0
+O43193	Motilin receptor	0.004	0.034	0.138	0.008	0
+P07384	Calpain-1 catalytic subunit	0.004	0.042	0.022	0.016	0.002
+P08709	Coagulation factor VII	0.004	0.038	0.006	0.008	0
+P25104	Type-1 angiotensin II receptor	0.004	0.418	0.004	0.004	0
+P47820	Angiotensin-converting enzyme	0.004	0.042	0.072	0.022	0.014
+P47901	Vasopressin V1b receptor	0.004	0.034	0.006	0.02	0
+P49355	Protein farnesyltransferase subunit beta	0.004	0.13	0.01	0.01	0.002
+P49356	Protein farnesyltransferase subunit beta	0.004	0.092	0.454	0.006	0.01
+P51639	3-hydroxy-3-methylglutaryl-coenzyme A reductase	0.004	0.036	0.594	0.008	0.016
+P51681	C-C chemokine receptor type 5	0.004	0.066	0.044	0.014	0.004
+Q16602	Calcitonin gene-related peptide type 1 receptor	0.004	0.012	0.006	0.014	0.004
+O14939	Phospholipase D2	0.002	0.022	0.006	0.004	0.002
+P05556	Integrin beta-1	0.002	0.02	0.008	0.008	0.002
+P20444	Protein kinase C alpha type	0.002	0.018	0.158	0.03	0.002
+P55157	Microsomal triglyceride transfer protein large subunit	0.002	0.038	0.006	0.004	0.004
+P56481	Gastrin/cholecystokinin type B receptor	0.002	0.022	0.02	0.028	0
+Q01726	Melanocyte-stimulating hormone receptor	0.002	0.014	0	0.008	0
+Q95323	Carbonic anhydrase 4	0.002	0.032	0	0.374	0

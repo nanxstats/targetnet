@@ -1,0 +1,817 @@
+530
+  Mrv0541 02231214452D          
+
+ 29 31  0  0  0  0            999 V2000
+    4.5080    0.2782    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5080    1.9282    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3645    0.6907    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7935    3.9908    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.3795   -0.5754    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    7.3889    1.9568    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1365    0.6735    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6515    0.6907    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6515    1.5157    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2224    0.6907    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2224    1.5157    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9370    0.2782    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.3889    0.2496    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9370    1.9282    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7935    0.6907    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.0891   -0.9961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5080    2.7533    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1365    1.5329    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0791    0.2782    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7935    3.1658    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.0796   -1.8211    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.8083   -0.5920    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.7892   -2.2418    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5180   -1.0126    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5084   -1.8376    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6500    0.2782    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0791    4.4033    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.7797   -3.0668    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.7701   -3.8918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1 10  1  0  0  0  0
+  1 15  1  0  0  0  0
+  2 11  1  0  0  0  0
+  2 17  1  0  0  0  0
+  3 19  1  0  0  0  0
+  3 26  1  0  0  0  0
+  4 20  1  0  0  0  0
+  4 27  1  0  0  0  0
+  5 13  1  0  0  0  0
+  5 16  1  0  0  0  0
+  6  9  1  0  0  0  0
+  6 18  2  0  0  0  0
+  7 13  2  0  0  0  0
+  7 18  1  0  0  0  0
+  8  9  1  0  0  0  0
+  8 12  2  0  0  0  0
+  8 13  1  0  0  0  0
+  9 14  2  0  0  0  0
+ 10 11  2  0  0  0  0
+ 10 12  1  0  0  0  0
+ 11 14  1  0  0  0  0
+ 15 19  1  0  0  0  0
+ 16 21  1  0  0  0  0
+ 16 22  2  0  0  0  0
+ 17 20  1  0  0  0  0
+ 21 23  2  0  0  0  0
+ 22 24  1  0  0  0  0
+ 23 25  1  0  0  0  0
+ 23 28  1  0  0  0  0
+ 24 25  2  0  0  0  0
+ 28 29  3  0  0  0  0
+M  END
+> <DATABASE_NAME>
+drugbank
+
+> <DATABASE_ID>
+DB00530
+
+> <SMILES>
+COCCOC1=C(OCCOC)C=C2C(NC3=CC=CC(=C3)C#C)=NC=NC2=C1
+
+> <INCHI_IDENTIFIER>
+InChI=1S/C22H23N3O4/c1-4-16-6-5-7-17(12-16)25-22-18-13-20(28-10-8-26-2)21(29-11-9-27-3)14-19(18)23-15-24-22/h1,5-7,12-15H,8-11H2,2-3H3,(H,23,24,25)
+
+> <INCHI_KEY>
+InChIKey=AAKJLRGGTJKAMG-UHFFFAOYSA-N
+
+> <JCHEM_ACCEPTOR_COUNT>
+7
+
+> <JCHEM_AVERAGE_POLARIZABILITY>
+43.481984980674554
+
+> <JCHEM_BIOAVAILABILITY>
+1
+
+> <JCHEM_DONOR_COUNT>
+1
+
+> <JCHEM_EXACT_MASS>
+393.168856239
+
+> <JCHEM_FORMAL_CHARGE>
+0
+
+> <JCHEM_FORMULA>
+C22H23N3O4
+
+> <JCHEM_GHOSE_FILTER>
+1
+
+> <JCHEM_IUPAC>
+N-(3-ethynylphenyl)-6,7-bis(2-methoxyethoxy)quinazolin-4-amine
+
+> <ALOGPS_LOGP>
+3.13
+
+> <JCHEM_LOGP>
+3.2009875863333344
+
+> <ALOGPS_LOGS>
+-4.64
+
+> <JCHEM_MASS>
+393.4357
+
+> <JCHEM_MDDR_LIKE_RULE>
+1
+
+> <JCHEM_NUMBER_OF_RINGS>
+3
+
+> <JCHEM_PHYSIOLOGICAL_CHARGE>
+0
+
+> <JCHEM_PKA_STRONGEST_ACIDIC>
+16.143808891275707
+
+> <JCHEM_PKA_STRONGEST_BASIC>
+4.5874862488003805
+
+> <JCHEM_POLAR_SURFACE_AREA>
+74.73
+
+> <JCHEM_REFRACTIVITY>
+107.78590000000001
+
+> <JCHEM_ROTATABLE_BOND_COUNT>
+10
+
+> <JCHEM_RULE_OF_FIVE>
+1
+
+> <ALOGPS_SOLUBILITY>
+8.91e-03 g/l
+
+> <JCHEM_TRADITIONAL_IUPAC>
+erlotinib
+
+> <JCHEM_VEBER_RULE>
+0
+
+> <DRUGBANK_ID>
+DB00530
+
+> <DRUG_GROUPS>
+approved; investigational
+
+> <GENERIC_NAME>
+Erlotinib
+
+> <SYNONYMS>
+OSI-774
+
+> <BRANDS>
+Tarceva
+
+> <SALTS>
+Erlotinib Hydrochloride
+
+$$$$
+275
+  Mrv0541 04191212112D          
+
+ 33 36  0  0  0  0            999 V2000
+    0.0000    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145    0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000   -0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7145   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7145    0.4125    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145    2.0625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    1.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289    1.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000   -1.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -2.0625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -1.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4991    0.6674    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9840    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4991   -0.6674    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145    2.8875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2136    3.0451    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6985    3.7125    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289    3.3000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4685    2.2604    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2755    2.0889    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5304    1.3043    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289    4.1250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145    4.5375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145    5.3625    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    4.1250    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2136    4.3799    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4685    5.1646    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9165    5.7777    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2755    5.3361    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7234    5.9492    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  8  1  2  0  0  0  0
+  1  2  1  0  0  0  0
+  2  9  2  0  0  0  0
+  2  3  1  0  0  0  0
+  3 14  1  0  0  0  0
+  3  4  2  0  0  0  0
+  4 11  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5 17  2  0  0  0  0
+  5  6  1  0  0  0  0
+  6 15  1  0  0  0  0
+ 18  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  7 10  2  0  0  0  0
+  9 10  1  0  0  0  0
+ 11 12  2  0  0  0  0
+ 12 13  1  0  0  0  0
+ 13 14  2  0  0  0  0
+ 15 16  2  0  0  0  0
+ 16 17  1  0  0  0  0
+ 21 18  1  0  0  0  0
+ 19 20  2  0  0  0  0
+ 19 21  1  0  0  0  0
+ 19 22  1  0  0  0  0
+ 20 29  1  0  0  0  0
+ 29 25  2  0  0  0  0
+ 25 21  1  0  0  0  0
+ 22 23  1  0  0  0  0
+ 23 24  1  0  0  0  0
+ 25 26  1  0  0  0  0
+ 26 28  1  0  0  0  0
+ 26 27  2  0  0  0  0
+ 29 30  1  0  0  0  0
+ 30 33  1  0  0  0  0
+ 30 31  1  0  0  0  0
+ 30 32  1  0  0  0  0
+M  END
+> <DATABASE_NAME>
+drugbank
+
+> <DATABASE_ID>
+DB00275
+
+> <SMILES>
+CCCC1=NC(=C(N1CC1=CC=C(C=C1)C1=C(C=CC=C1)C1=NN=NN1)C(O)=O)C(C)(C)O
+
+> <INCHI_IDENTIFIER>
+InChI=1S/C24H26N6O3/c1-4-7-19-25-21(24(2,3)33)20(23(31)32)30(19)14-15-10-12-16(13-11-15)17-8-5-6-9-18(17)22-26-28-29-27-22/h5-6,8-13,33H,4,7,14H2,1-3H3,(H,31,32)(H,26,27,28,29)
+
+> <INCHI_KEY>
+InChIKey=VTRAEEWXHOVJFV-UHFFFAOYSA-N
+
+> <JCHEM_ACCEPTOR_COUNT>
+7
+
+> <JCHEM_AVERAGE_POLARIZABILITY>
+47.46109228955917
+
+> <JCHEM_BIOAVAILABILITY>
+1
+
+> <JCHEM_DONOR_COUNT>
+3
+
+> <JCHEM_EXACT_MASS>
+446.206638728
+
+> <JCHEM_FORMAL_CHARGE>
+0
+
+> <JCHEM_FORMULA>
+C24H26N6O3
+
+> <JCHEM_GHOSE_FILTER>
+0
+
+> <JCHEM_IUPAC>
+4-(2-hydroxypropan-2-yl)-2-propyl-1-({4-[2-(1H-1,2,3,4-tetrazol-5-yl)phenyl]phenyl}methyl)-1H-imidazole-5-carboxylic acid
+
+> <ALOGPS_LOGP>
+2.98
+
+> <JCHEM_LOGP>
+2.1421836780318553
+
+> <ALOGPS_LOGS>
+-4.63
+
+> <JCHEM_MASS>
+446.5016
+
+> <JCHEM_MDDR_LIKE_RULE>
+1
+
+> <JCHEM_NUMBER_OF_RINGS>
+4
+
+> <JCHEM_PHYSIOLOGICAL_CHARGE>
+-2
+
+> <JCHEM_PKA>
+4.960543714059866
+
+> <JCHEM_PKA_STRONGEST_ACIDIC>
+0.9103581952252084
+
+> <JCHEM_PKA_STRONGEST_BASIC>
+5.5694484713200865
+
+> <JCHEM_POLAR_SURFACE_AREA>
+129.81
+
+> <JCHEM_REFRACTIVITY>
+137.3237
+
+> <JCHEM_ROTATABLE_BOND_COUNT>
+8
+
+> <JCHEM_RULE_OF_FIVE>
+1
+
+> <ALOGPS_SOLUBILITY>
+1.05e-02 g/l
+
+> <JCHEM_TRADITIONAL_IUPAC>
+olmesartan
+
+> <JCHEM_VEBER_RULE>
+0
+
+> <DRUGBANK_ID>
+DB00275
+
+> <DRUG_GROUPS>
+approved; investigational
+
+> <GENERIC_NAME>
+Olmesartan
+
+> <SYNONYMS>
+Olmesartan medoxomil
+
+> <BRANDS>
+Benicar; Erastapex; Golme; Olmetec; WinBP
+
+$$$$
+227
+  Mrv0541 02231214322D          
+
+ 30 32  0  0  1  0            999 V2000
+    3.0790    0.4577    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9312   -1.2373    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7736   -2.4499    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6500    0.4577    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6313   -2.4829    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7935    1.6952    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    4.5309    1.2542    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    3.0790    1.2827    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    5.2785    1.6781    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    3.7935    2.5202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5215    0.4292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3645    1.6952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3645    2.5202    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    3.0790    2.9327    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2310    0.0084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2785    2.5374    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5309    2.9614    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9914    1.2628    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2216   -0.8165    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    1.6500    2.9327    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5023   -1.2207    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4928   -2.0457    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    2.3645    0.0452    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2025   -2.4664    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3645   -0.7798    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    5.9217   -2.0622    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6500   -1.1923    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0790   -1.1923    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6500   -2.0173    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7884    1.0352    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  8  1  1  1  0  0  0
+  1 23  1  0  0  0  0
+  2 19  1  0  0  0  0
+  2 26  1  0  0  0  0
+ 22  3  1  6  0  0  0
+  4 23  2  0  0  0  0
+  5 26  2  0  0  0  0
+  6  7  1  0  0  0  0
+  6  8  1  0  0  0  0
+  6 10  1  0  0  0  0
+  6 30  1  6  0  0  0
+  7  9  1  0  0  0  0
+  7 11  1  6  0  0  0
+  8 12  1  0  0  0  0
+  9 16  1  0  0  0  0
+  9 18  1  6  0  0  0
+ 10 14  2  0  0  0  0
+ 10 17  1  0  0  0  0
+ 11 15  1  0  0  0  0
+ 12 13  1  0  0  0  0
+ 13 14  1  0  0  0  0
+ 13 20  1  1  0  0  0
+ 19 15  1  1  0  0  0
+ 16 17  2  0  0  0  0
+ 19 21  1  0  0  0  0
+ 21 22  1  0  0  0  0
+ 22 24  1  0  0  0  0
+ 23 25  1  0  0  0  0
+ 24 26  1  0  0  0  0
+ 25 27  1  0  0  0  0
+ 25 28  1  1  0  0  0
+ 27 29  1  0  0  0  0
+M  END
+> <DATABASE_NAME>
+drugbank
+
+> <DATABASE_ID>
+DB00227
+
+> <SMILES>
+[H][C@]12[C@H](C[C@@H](C)C=C1C=C[C@H](C)[C@@H]2CC[C@@H]1C[C@@H](O)CC(=O)O1)OC(=O)[C@@H](C)CC
+
+> <INCHI_IDENTIFIER>
+InChI=1S/C24H36O5/c1-5-15(3)24(27)29-21-11-14(2)10-17-7-6-16(4)20(23(17)21)9-8-19-12-18(25)13-22(26)28-19/h6-7,10,14-16,18-21,23,25H,5,8-9,11-13H2,1-4H3/t14-,15-,16-,18+,19+,20-,21-,23-/m0/s1
+
+> <INCHI_KEY>
+InChIKey=PCZOHLXUXFIOCF-BXMDZJJMSA-N
+
+> <JCHEM_ACCEPTOR_COUNT>
+3
+
+> <JCHEM_AVERAGE_POLARIZABILITY>
+46.112664928862706
+
+> <JCHEM_BIOAVAILABILITY>
+1
+
+> <JCHEM_DONOR_COUNT>
+1
+
+> <JCHEM_EXACT_MASS>
+404.256274262
+
+> <JCHEM_FORMAL_CHARGE>
+0
+
+> <JCHEM_FORMULA>
+C24H36O5
+
+> <JCHEM_GHOSE_FILTER>
+1
+
+> <JCHEM_IUPAC>
+(1S,3R,7S,8S,8aR)-8-{2-[(2R,4R)-4-hydroxy-6-oxooxan-2-yl]ethyl}-3,7-dimethyl-1,2,3,7,8,8a-hexahydronaphthalen-1-yl (2S)-2-methylbutanoate
+
+> <ALOGPS_LOGP>
+4.11
+
+> <JCHEM_LOGP>
+3.9021869143333325
+
+> <ALOGPS_LOGS>
+-4.22
+
+> <JCHEM_MASS>
+404.5396
+
+> <JCHEM_MDDR_LIKE_RULE>
+1
+
+> <JCHEM_NUMBER_OF_RINGS>
+3
+
+> <JCHEM_PHYSIOLOGICAL_CHARGE>
+0
+
+> <JCHEM_PKA_STRONGEST_ACIDIC>
+14.914537666911102
+
+> <JCHEM_PKA_STRONGEST_BASIC>
+-2.8361812244930835
+
+> <JCHEM_POLAR_SURFACE_AREA>
+72.83
+
+> <JCHEM_REFRACTIVITY>
+113.18239999999999
+
+> <JCHEM_ROTATABLE_BOND_COUNT>
+7
+
+> <JCHEM_RULE_OF_FIVE>
+1
+
+> <ALOGPS_SOLUBILITY>
+2.43e-02 g/l
+
+> <JCHEM_TRADITIONAL_IUPAC>
+lovastatin
+
+> <JCHEM_VEBER_RULE>
+0
+
+> <DRUGBANK_ID>
+DB00227
+
+> <DRUG_GROUPS>
+approved; investigational
+
+> <GENERIC_NAME>
+Lovastatin
+
+> <SYNONYMS>
+6-alpha-methylcompactin; 6α-methylcompactin; Lovastatina; Lovastatine; Lovastatinum
+
+> <BRANDS>
+Altocor; Altoprev; Mevacor
+
+$$$$
+311
+  Mrv0541 02231214352D          
+
+ 16 17  0  0  0  0            999 V2000
+    7.3097    0.0000    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0031    0.6639    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0791    0.8250    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.3097    0.8250    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.3097   -0.8250    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0031   -0.6639    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1347    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2224    0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2224   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4846    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5080    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7935    0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5080   -0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7935   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3645    0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6500    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  4  2  0  0  0  0
+  1  5  2  0  0  0  0
+  1  7  1  0  0  0  0
+  1 10  1  0  0  0  0
+  2  8  1  0  0  0  0
+  2 10  1  0  0  0  0
+  3 12  1  0  0  0  0
+  3 15  1  0  0  0  0
+  6  9  1  0  0  0  0
+  6 10  2  0  0  0  0
+  8  9  2  0  0  0  0
+  8 11  1  0  0  0  0
+  9 13  1  0  0  0  0
+ 11 12  2  0  0  0  0
+ 12 14  1  0  0  0  0
+ 13 14  2  0  0  0  0
+ 15 16  1  0  0  0  0
+M  END
+> <DATABASE_NAME>
+drugbank
+
+> <DATABASE_ID>
+DB00311
+
+> <SMILES>
+CCOC1=CC2=C(C=C1)N=C(S2)S(N)(=O)=O
+
+> <INCHI_IDENTIFIER>
+InChI=1S/C9H10N2O3S2/c1-2-14-6-3-4-7-8(5-6)15-9(11-7)16(10,12)13/h3-5H,2H2,1H3,(H2,10,12,13)
+
+> <INCHI_KEY>
+InChIKey=OUZWUKMCLIBBOG-UHFFFAOYSA-N
+
+> <JCHEM_ACCEPTOR_COUNT>
+4
+
+> <JCHEM_AVERAGE_POLARIZABILITY>
+25.269498813380597
+
+> <JCHEM_BIOAVAILABILITY>
+1
+
+> <JCHEM_DONOR_COUNT>
+1
+
+> <JCHEM_EXACT_MASS>
+258.013283576
+
+> <JCHEM_FORMAL_CHARGE>
+0
+
+> <JCHEM_FORMULA>
+C9H10N2O3S2
+
+> <JCHEM_GHOSE_FILTER>
+1
+
+> <JCHEM_IUPAC>
+6-ethoxy-1,3-benzothiazole-2-sulfonamide
+
+> <ALOGPS_LOGP>
+1.87
+
+> <JCHEM_LOGP>
+1.6028892289999999
+
+> <ALOGPS_LOGS>
+-2.57
+
+> <JCHEM_MASS>
+258.317
+
+> <JCHEM_MDDR_LIKE_RULE>
+0
+
+> <JCHEM_NUMBER_OF_RINGS>
+2
+
+> <JCHEM_PHYSIOLOGICAL_CHARGE>
+0
+
+> <JCHEM_PKA_STRONGEST_ACIDIC>
+7.511271617325915
+
+> <JCHEM_PKA_STRONGEST_BASIC>
+-1.9316959203012112
+
+> <JCHEM_POLAR_SURFACE_AREA>
+82.28
+
+> <JCHEM_REFRACTIVITY>
+59.97170000000001
+
+> <JCHEM_ROTATABLE_BOND_COUNT>
+3
+
+> <JCHEM_RULE_OF_FIVE>
+1
+
+> <ALOGPS_SOLUBILITY>
+6.88e-01 g/l
+
+> <JCHEM_TRADITIONAL_IUPAC>
+ethoxzolamide
+
+> <JCHEM_VEBER_RULE>
+0
+
+> <DRUGBANK_ID>
+DB00311
+
+> <DRUG_GROUPS>
+withdrawn
+
+> <GENERIC_NAME>
+Ethoxzolamide
+
+> <SYNONYMS>
+6-Ethoxy-1,3-benzothiazole-2-sulfonamide; Ethoxazolamide; Ethoxyzolamide
+
+> <BRANDS>
+Cardrase; Ethamide
+
+$$$$
+2709
+  Mrv0541 02231216242D          
+
+ 17 18  0  0  0  0            999 V2000
+    1.4289   -1.6500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -2.4750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1434   -2.8875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1434   -3.7125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -4.1250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -3.7125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -2.8875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -4.9500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1434   -5.3625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1434   -6.1875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8579   -6.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8579   -7.4250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5724   -7.8375    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1434   -7.8375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -7.4250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -7.8375    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -6.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  2  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  2  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  2  0  0  0  0
+  2  7  1  0  0  0  0
+  5  8  1  0  0  0  0
+  8  9  2  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  2  0  0  0  0
+ 11 12  1  0  0  0  0
+ 12 13  1  0  0  0  0
+ 12 14  2  0  0  0  0
+ 14 15  1  0  0  0  0
+ 15 16  1  0  0  0  0
+ 15 17  2  0  0  0  0
+ 10 17  1  0  0  0  0
+M  END
+> <DATABASE_NAME>
+drugbank
+
+> <DATABASE_ID>
+DB02709
+
+> <SMILES>
+OC1=CC=C(\C=C\C2=CC(O)=CC(O)=C2)C=C1
+
+> <INCHI_IDENTIFIER>
+InChI=1S/C14H12O3/c15-12-5-3-10(4-6-12)1-2-11-7-13(16)9-14(17)8-11/h1-9,15-17H/b2-1+
+
+> <INCHI_KEY>
+InChIKey=LUKBXSAWLPMMSZ-OWOJBTEDSA-N
+
+> <JCHEM_ACCEPTOR_COUNT>
+3
+
+> <JCHEM_AVERAGE_POLARIZABILITY>
+24.551069139354443
+
+> <JCHEM_BIOAVAILABILITY>
+1
+
+> <JCHEM_DONOR_COUNT>
+3
+
+> <JCHEM_EXACT_MASS>
+228.07864425
+
+> <JCHEM_FORMAL_CHARGE>
+0
+
+> <JCHEM_FORMULA>
+C14H12O3
+
+> <JCHEM_GHOSE_FILTER>
+1
+
+> <JCHEM_IUPAC>
+5-[(E)-2-(4-hydroxyphenyl)ethenyl]benzene-1,3-diol
+
+> <ALOGPS_LOGP>
+2.57
+
+> <JCHEM_LOGP>
+3.4023908863333325
+
+> <ALOGPS_LOGS>
+-3.52
+
+> <JCHEM_MASS>
+228.2433
+
+> <JCHEM_MDDR_LIKE_RULE>
+0
+
+> <JCHEM_NUMBER_OF_RINGS>
+2
+
+> <JCHEM_PHYSIOLOGICAL_CHARGE>
+0
+
+> <JCHEM_PKA>
+9.628094559528252
+
+> <JCHEM_PKA_STRONGEST_ACIDIC>
+8.993489164415603
+
+> <JCHEM_PKA_STRONGEST_BASIC>
+-5.678025720766969
+
+> <JCHEM_POLAR_SURFACE_AREA>
+60.69
+
+> <JCHEM_REFRACTIVITY>
+67.4555
+
+> <JCHEM_ROTATABLE_BOND_COUNT>
+2
+
+> <JCHEM_RULE_OF_FIVE>
+1
+
+> <ALOGPS_SOLUBILITY>
+6.88e-02 g/l
+
+> <JCHEM_TRADITIONAL_IUPAC>
+resveratrol
+
+> <JCHEM_VEBER_RULE>
+0
+
+> <DRUGBANK_ID>
+DB02709
+
+> <DRUG_GROUPS>
+experimental; investigational
+
+> <GENERIC_NAME>
+Resveratrol
+
+$$$$
