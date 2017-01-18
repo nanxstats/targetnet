@@ -50,7 +50,7 @@ xn.write.xlsx = function (x, file, sheetName = "Sheet1",
 }
 
 # return Lipinski's rule of five table (4 numbers for each molecule)
-# http://en.wikipedia.org/wiki/Lipinski's_rule_of_five
+# https://en.wikipedia.org/wiki/Lipinski's_rule_of_five
 calcFiveRule = function (molecules, silent = TRUE) {
 
   hbd = rcdk::eval.desc(molecules,

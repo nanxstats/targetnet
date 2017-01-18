@@ -12,4 +12,4 @@ After this filtering, 109,061 compounds associated with 623 target proteins rema
 
 <hr>
 
-Copyright © 2014 - 2016 TargetNet. Developed and maintained by [Nan Xiao](http://nanx.me).
+Copyright © 2014 - 2016 TargetNet. Developed and maintained by [Nan Xiao](https://nanx.me).

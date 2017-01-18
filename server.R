@@ -97,7 +97,7 @@ shinyServer(function(input, output, session) {
     targetinfo = readRDS('data/targetinfo.rds')
     preddf = cbind(targetinfo[row.names(preddf), 'UniProt.Recommended.Name'], preddf)
     # add target name with link column
-    preddf = cbind(paste0('<a href="http://nanx.me/targetnet/', row.names(preddf), '/" target="_blank">', row.names(preddf), '</a>'), preddf)
+    preddf = cbind(paste0('<a href="https://nanx.me/targetnet/', row.names(preddf), '/" target="_blank">', row.names(preddf), '</a>'), preddf)
     colnames(preddf) = c('Target', 'UniProt.Name', paste0('Comp.', (1L:(ncol(preddf) - 2L))))
 
     if (nmol > 50L) {
@@ -228,7 +228,7 @@ shinyServer(function(input, output, session) {
     alltargetinfo = readRDS('data/targetinfo.rds')
     resultdf = alltargetinfo[alltargets.name, 1L:2L]
     resultdf[, 'ID'] = 1L:length(alltargets.name)
-    resultdf[, 'Target Details'] = paste0('<a class="btn btn-primary" href="http://nanx.me/targetnet/', resultdf[, 'Primary.ID'], '/" target="_blank">View <i class="fa fa-external-link"></i></a>')
+    resultdf[, 'Target Details'] = paste0('<a class="btn btn-primary" href="https://nanx.me/targetnet/', resultdf[, 'Primary.ID'], '/" target="_blank">View <i class="fa fa-external-link"></i></a>')
     resultdf = resultdf[, c(3, 1, 2, 4)]
     names(resultdf) = c('ID', 'UniProt Primary ID', 'UniProt Recommended Name', 'Target Details')
     resultdf

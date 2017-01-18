@@ -48,7 +48,7 @@ When the computation is done (usually in less than one minute), the result will 
 
 The first table shows each target's name, UniProt name, and the predicted probability of binding. Click `'Comp.1'` to show the result in ascending order or descending order. Searching ID or name of the targets is also available. Most importantly, you can download the table as an Excel XLSX file or a TSV (Tab-Separated Values) file.
 
-The second table shows the [Lipinski's Rule of Five](http://en.wikipedia.org/wiki/Lipinski's_rule_of_five) computation result and 2D structure of the molecule. You can also download the table as an Excel XLSX file or a TSV file.
+The second table shows the [Lipinski's Rule of Five](https://en.wikipedia.org/wiki/Lipinski's_rule_of_five) computation result and 2D structure of the molecule. You can also download the table as an Excel XLSX file or a TSV file.
 
 ## 2. Submit multiple query molecules
 
@@ -109,7 +109,7 @@ A typical target detail page looks like:
 
 <center>
 <footer>
-<p>Copyright &copy; 2014 - 2016 TargetNet. Developed and maintained by <a href="http://nanx.me">Nan Xiao</a>.</p>
+<p>Copyright &copy; 2014 - 2016 TargetNet. Developed and maintained by <a href="https://nanx.me">Nan Xiao</a>.</p>
 <p>Last revision: 2016-04-25 10:10:00 CST.</p>
 </footer>
 </center>
