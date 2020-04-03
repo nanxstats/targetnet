@@ -16,7 +16,7 @@ In this guide, we will demonstrate how to use TargetNet to find potential drug t
 
 ## 1. Submit single query molecule
 
-Open your browser and go to [http://targetnet.org](http://targetnet.org). You will see the homepage of TargetNet:
+Go to the app ([mirror 1](https://nanx.app/targetnet/), [mirror 2](https://nanx.shinyapps.io/targetnet/)). You will see the TargetNet landing page:
 
 <img src="images/01.png" width="100%" class="img-responsive" alt="TargetNet overview">
 
