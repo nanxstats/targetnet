@@ -1,4 +1,4 @@
-# TargetNet <img src="logo.png" align="right" alt="logo" height="180" width="180" />
+# TargetNet  <img src="logo.png" align="right" height="139" />
 
 Powered by large-scale machine learning modeling of public chemogenomics data, TargetNet ([Mirror 1](https://nanx.app/targetnet/), [Mirror 2](https://nanx.shinyapps.io/targetnet/)) is a shiny app for predicting the binding probability of 623 potential drug targets for given small molecule(s).
 
