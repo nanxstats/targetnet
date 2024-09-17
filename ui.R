@@ -4,18 +4,22 @@ library('networkD3')
 source('ui-core.R', local = TRUE)
 
 shinyUI(navbarPage(title = 'TargetNet',
+                   id = 'mainnavbar',
                    theme = bslib::bs_theme(version = "3", bootswatch = "spacelab"),
                    inverse = TRUE,
+                   position = "fixed-top",
                    fluid = TRUE,
-                   id = 'mainnavbar',
 
                    tabPanel(title = 'Home',
 
+                            tags$style(type = "text/css", "body, .footnotes, code { font-size: 14px !important; }"),
+                            tags$style(type = "text/css", ".tab-content { padding-top: 50px; }"),
+
                             fluidRow(
-                              column(width = 5, offset = 5,
+                              column(width = 6, offset = 3,
                                      tags$br(), tags$br(), tags$br(),
                                      tags$br(), tags$br(), tags$br(),
-                                     tags$br(), tags$br(), tags$br(),
+                                     tags$br(), tags$br(),
                                      tags$h1('TargetNet'),
                                      tags$style(type = 'text/css', '@font-face { font-family: "ralewaythin"; src: url("fonts/raleway-thin-webfont.eot"); src: url("fonts/raleway-thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/raleway-thin-webfont.woff2") format("woff2"), url("fonts/raleway-thin-webfont.woff") format("woff"), url("fonts/raleway-thin-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }'),
                                      tags$style(type = 'text/css', 'h1 { font-family: "ralewaythin", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 50px; letter-spacing: 2px; }'),
@@ -25,11 +29,11 @@ shinyUI(navbarPage(title = 'TargetNet',
 
                             fluidRow(
 
-                              column(width = 9, offset = 3,
+                              column(width = 12, offset = 0,
 
                                      fluidRow(
 
-                                       column(width = 7, offset = 0,
+                                       column(width = 9, offset = 0,
                                               textInput(inputId = 'inputsmi',
                                                         label = '',
                                                         value = '',
@@ -37,7 +41,7 @@ shinyUI(navbarPage(title = 'TargetNet',
                                                         width = '100%')
                                        ),
 
-                                       column(width = 2, offset = 0,
+                                       column(width = 3, offset = 0,
                                               tags$div(class = 'netbutton', # use this div as a wrapper for the next css hack to vertical align the button ...
                                                        xn.actionButton('netButtonSMILE', 'Netting', icon('search')),
                                                        tags$style(type = 'text/css', 'div.netbutton { padding-top:20px; }')
@@ -51,9 +55,9 @@ shinyUI(navbarPage(title = 'TargetNet',
 
                             fluidRow(
 
-                              column(width = 9, offset = 3,
+                              column(width = 12, offset = 0,
                                      fluidRow(
-                                       column(width = 3, offset = 0,
+                                       column(width = 5, offset = 0,
                                               tags$div(class = 'longselect', # use this div as a wrapper for the next css hack to make the bottom space large enough when the options expand ...
                                                        selectInput('criterion', 'Include models with:',
                                                                    c('AUC >=' = 'auc',
@@ -63,15 +67,15 @@ shinyUI(navbarPage(title = 'TargetNet',
                                                                      'F-score >=' = 'f'
                                                                    ))
                                               ),
-                                              tags$style(type = 'text/css', 'div.longselect { margin-bottom:180px; }')
+                                              tags$style(type = 'text/css', 'div.longselect { margin-top: 10px; margin-bottom:180px; }')
                                        ),
-                                       column(width = 3, offset = 0,
+                                       column(width = 5, offset = 0,
                                               tags$div(class = 'thresholdslider', # use this div as a wrapper for the next css hack to vertical align the slider ...
                                                        sliderInput('threshold', '',
                                                                    min = 0.70, max = 0.99, value = 0.75, step = 0.01)
                                               )
                                        ),
-                                       column(width = 1, offset = 0,
+                                       column(width = 2, offset = 0,
                                               tags$div(class = 'helpicon', # use this div as a wrapper for the next css hack to vertical align the help icon ...
                                                        popHelp('Submit Single Query Compound', 'smiles', includeMD('help/smiles.md')),
                                                        HTML('&nbsp;&nbsp;&nbsp;&nbsp;'),
@@ -91,18 +95,24 @@ shinyUI(navbarPage(title = 'TargetNet',
                               h2(tags$strong('Upload SMILES or SDF File')),
                               hr(),
 
-                              fileInput(inputId = 'file1',
-                                        label = 'Netting targets for one or more compounds stored in a SMILES or SDF file.',
-                                        accept = c('chemical/x-daylight-smiles',
-                                                   'chemical/x-mdl-sdfile',
-                                                   '.smi', '.SMI',
-                                                   '.smile', '.SMILE',
-                                                   '.smiles', '.SMILES',
-                                                   '.sd', '.SD',
-                                                   '.sdf', '.SDF')),
+                              fluidRow(
+                                column(
+                                  width = 12,
+                                  fileInput(inputId = 'file1',
+                                            label = 'Netting targets for one or more compounds stored in a SMILES or SDF file.',
+                                            accept = c('chemical/x-daylight-smiles',
+                                                       'chemical/x-mdl-sdfile',
+                                                       '.smi', '.SMI',
+                                                       '.smile', '.SMILE',
+                                                       '.smiles', '.SMILES',
+                                                       '.sd', '.SD',
+                                                       '.sdf', '.SDF'),
+                                            width = "100%")
+                                )
+                              ),
 
                               fluidRow(
-                                column(width = 3, offset = 0,
+                                column(width = 5, offset = 0,
                                        tags$div(class = 'longselectupload', # use this div as a wrapper for the next css hack to make the bottom space large enough when the options expand ...
                                                 selectInput('criterionupload', 'Include models with:',
                                                             c('AUC >=' = 'auc',
@@ -114,13 +124,13 @@ shinyUI(navbarPage(title = 'TargetNet',
                                        ),
                                        tags$style(type = 'text/css', 'div.longselectupload { margin-bottom:20px; }')
                                 ),
-                                column(width = 3, offset = 0,
+                                column(width = 5, offset = 0,
                                        tags$div(class = 'thresholdsliderupload', # use this div as a wrapper for the next css hack to vertical align the slider ...
                                                 sliderInput('thresholdupload', '',
                                                             min = 0.70, max = 0.99, value = 0.75, step = 0.01)
                                        )
                                 ),
-                                column(width = 1, offset = 0,
+                                column(width = 2, offset = 0,
                                        tags$div(class = 'helpiconupload', # use this div as a wrapper for the next css hack to vertical align the help icon ...
                                                 popHelp('Upload Query Compounds', 'uploadfile', includeMD('help/upload.md')),
                                                 HTML('&nbsp;&nbsp;&nbsp;&nbsp;'),
