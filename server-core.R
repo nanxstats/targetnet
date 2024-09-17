@@ -77,7 +77,7 @@ calcFiveRule = function (molecules, silent = TRUE) {
 # directly return png base64 flow to avoid writing files to web directory
 # modified from http://www.cureffi.org/2013/09/23/a-quick-intro-to-chemical-informatics-in-r/
 mol2base64 = function(molecule, width = 200L, height = 200L) {
-  tmp = view.image.2d(molecule, width, height)  # get Java representation into an image matrix
+  tmp = view.image.2d(molecule, dipictor = get.depictor(width = width, height = height))  # get Java representation into an image matrix
   pngfile = tempfile()  # plot to a temporary png
   png(pngfile, width = width, height = height)
   par(mar = c(0, 0, 0, 0), bty = 'n')  # set margins to zero since this isn't a real plot and bty = 'n' means no margin
