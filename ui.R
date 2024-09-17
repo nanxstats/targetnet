@@ -12,11 +12,10 @@ shinyUI(navbarPage(title = 'TargetNet',
 
                    tabPanel(title = 'Home',
 
-                            tags$style(type = "text/css", "body, .footnotes, code { font-size: 14px !important; }"),
                             tags$style(type = "text/css", ".tab-content { padding-top: 50px; }"),
 
                             fluidRow(
-                              column(width = 6, offset = 3,
+                              column(width = 5, offset = 5,
                                      tags$br(), tags$br(), tags$br(),
                                      tags$br(), tags$br(), tags$br(),
                                      tags$br(), tags$br(),
@@ -29,11 +28,11 @@ shinyUI(navbarPage(title = 'TargetNet',
 
                             fluidRow(
 
-                              column(width = 12, offset = 0,
+                              column(width = 9, offset = 3,
 
                                      fluidRow(
 
-                                       column(width = 9, offset = 0,
+                                       column(width = 7, offset = 0,
                                               textInput(inputId = 'inputsmi',
                                                         label = '',
                                                         value = '',
@@ -41,7 +40,7 @@ shinyUI(navbarPage(title = 'TargetNet',
                                                         width = '100%')
                                        ),
 
-                                       column(width = 3, offset = 0,
+                                       column(width = 2, offset = 0,
                                               tags$div(class = 'netbutton', # use this div as a wrapper for the next css hack to vertical align the button ...
                                                        xn.actionButton('netButtonSMILE', 'Netting', icon('search')),
                                                        tags$style(type = 'text/css', 'div.netbutton { padding-top:20px; }')
@@ -55,9 +54,9 @@ shinyUI(navbarPage(title = 'TargetNet',
 
                             fluidRow(
 
-                              column(width = 12, offset = 0,
+                              column(width = 9, offset = 3,
                                      fluidRow(
-                                       column(width = 5, offset = 0,
+                                       column(width = 3, offset = 0,
                                               tags$div(class = 'longselect', # use this div as a wrapper for the next css hack to make the bottom space large enough when the options expand ...
                                                        selectInput('criterion', 'Include models with:',
                                                                    c('AUC >=' = 'auc',
@@ -69,7 +68,7 @@ shinyUI(navbarPage(title = 'TargetNet',
                                               ),
                                               tags$style(type = 'text/css', 'div.longselect { margin-top: 10px; margin-bottom:180px; }')
                                        ),
-                                       column(width = 5, offset = 0,
+                                       column(width = 3, offset = 0,
                                               tags$div(class = 'thresholdslider', # use this div as a wrapper for the next css hack to vertical align the slider ...
                                                        sliderInput('threshold', '',
                                                                    min = 0.70, max = 0.99, value = 0.75, step = 0.01)
@@ -77,11 +76,11 @@ shinyUI(navbarPage(title = 'TargetNet',
                                        ),
                                        column(width = 2, offset = 0,
                                               tags$div(class = 'helpicon', # use this div as a wrapper for the next css hack to vertical align the help icon ...
-                                                       popHelp('Submit Single Query Compound', 'smiles', includeMD('help/smiles.md')),
+                                                       actionButton("smiles", "", icon = icon("circle-question"), class = "btn btn-link"),
                                                        HTML('&nbsp;&nbsp;&nbsp;&nbsp;'),
                                                        HTML('<a href="draw/index.html" target = "_blank"><span style="color:#666666"><i title="Draw a Molecule" class="fa fa-pencil" data-toggle="modal"></i></span></a>')
                                               ),
-                                              tags$style(type = 'text/css', 'div.helpicon { padding-top:40px; }')
+                                              tags$style(type = 'text/css', '.helpicon { padding-top:40px; } .helpicon .btn, .helpicon .btn:focus { color: #666666; background: none; border: none; }')
                                        )
                                      )
                               )
@@ -95,24 +94,19 @@ shinyUI(navbarPage(title = 'TargetNet',
                               h2(tags$strong('Upload SMILES or SDF File')),
                               hr(),
 
-                              fluidRow(
-                                column(
-                                  width = 12,
-                                  fileInput(inputId = 'file1',
-                                            label = 'Netting targets for one or more compounds stored in a SMILES or SDF file.',
-                                            accept = c('chemical/x-daylight-smiles',
-                                                       'chemical/x-mdl-sdfile',
-                                                       '.smi', '.SMI',
-                                                       '.smile', '.SMILE',
-                                                       '.smiles', '.SMILES',
-                                                       '.sd', '.SD',
-                                                       '.sdf', '.SDF'),
-                                            width = "100%")
-                                )
-                              ),
+                              fileInput(inputId = 'file1',
+                                        label = 'Netting targets for one or more compounds stored in a SMILES or SDF file.',
+                                        accept = c('chemical/x-daylight-smiles',
+                                                   'chemical/x-mdl-sdfile',
+                                                   '.smi', '.SMI',
+                                                   '.smile', '.SMILE',
+                                                   '.smiles', '.SMILES',
+                                                   '.sd', '.SD',
+                                                   '.sdf', '.SDF'),
+                                        width = "100%"),
 
                               fluidRow(
-                                column(width = 5, offset = 0,
+                                column(width = 3, offset = 0,
                                        tags$div(class = 'longselectupload', # use this div as a wrapper for the next css hack to make the bottom space large enough when the options expand ...
                                                 selectInput('criterionupload', 'Include models with:',
                                                             c('AUC >=' = 'auc',
@@ -124,7 +118,7 @@ shinyUI(navbarPage(title = 'TargetNet',
                                        ),
                                        tags$style(type = 'text/css', 'div.longselectupload { margin-bottom:20px; }')
                                 ),
-                                column(width = 5, offset = 0,
+                                column(width = 3, offset = 0,
                                        tags$div(class = 'thresholdsliderupload', # use this div as a wrapper for the next css hack to vertical align the slider ...
                                                 sliderInput('thresholdupload', '',
                                                             min = 0.70, max = 0.99, value = 0.75, step = 0.01)
@@ -132,11 +126,11 @@ shinyUI(navbarPage(title = 'TargetNet',
                                 ),
                                 column(width = 2, offset = 0,
                                        tags$div(class = 'helpiconupload', # use this div as a wrapper for the next css hack to vertical align the help icon ...
-                                                popHelp('Upload Query Compounds', 'uploadfile', includeMD('help/upload.md')),
+                                                actionButton("uploadfile", "", icon = icon("circle-question"), class = "btn btn-link"),
                                                 HTML('&nbsp;&nbsp;&nbsp;&nbsp;'),
                                                 HTML('<a href="draw/index.html" target = "_blank"><span style="color:#666666"><i title="Draw a Molecule" class="fa fa-pencil" data-toggle="modal"></i></span></a>')
                                        ),
-                                       tags$style(type = 'text/css', 'div.helpiconupload { padding-top:40px; }')
+                                       tags$style(type = 'text/css', '.helpiconupload { padding-top:40px; } .helpiconupload .btn, .helpiconupload .btn:focus { color: #666666; background: none; border: none; }')
                                 )
                               ),
 
