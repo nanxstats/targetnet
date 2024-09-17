@@ -124,7 +124,7 @@ shinyServer(function(input, output, session) {
 
   })
 
-  output$tablepred = renderDataTable({
+  output$tablepred = DT::renderDT({
 
     if (ncol(calcPredDF()$'preddf') > 52L) {
       resultdf = calcPredDF()$'preddf'[, 1L:52L]  # limit max column number
@@ -139,7 +139,7 @@ shinyServer(function(input, output, session) {
                  pageLength = 10,
                  orderClasses = TRUE))
 
-  output$tablero5 = renderDataTable({
+  output$tablero5 = DT::renderDT({
 
     resultdf = calcPredDF()$'ro5df'
     resultdf
@@ -221,7 +221,7 @@ shinyServer(function(input, output, session) {
 
   })
 
-  output$alltargets = renderDataTable({
+  output$alltargets = DT::renderDT({
 
     alltargets.perfmat = readRDS('data/perfmat.rds')
     alltargets.name = row.names(alltargets.perfmat[order(alltargets.perfmat[, 'AUC'], decreasing = TRUE), ])  # rank by AUC to be consistent with the chart

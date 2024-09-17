@@ -19,7 +19,7 @@ xn.textInput = function (inputId, label, value = '', placeholder = '') {
 
 # render .md files to html on-the-fly
 includeMD = function(file) {
-  return(markdownToHTML(file, options = c(''), stylesheet = 'www/empty.css'))
+  return(markdownToHTML(file))
 }
 
 # render .Rmd files to html on-the-fly
@@ -27,8 +27,7 @@ includeRmd = function(path) {
   # shiny:::dependsOnFile(path)
   contents = paste(readLines(path, warn = FALSE), collapse = '\n')
   # do not embed image or add css
-  html = knit2html(text = contents, fragment.only = TRUE,
-                   quiet = TRUE, options = '', stylesheet = 'www/empty.css')
+  html = knit2html(text = contents, fragment.only = TRUE, quiet = TRUE)
   Encoding(html) = 'UTF-8'
   HTML(html)
 }
