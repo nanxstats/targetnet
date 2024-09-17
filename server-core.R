@@ -6,6 +6,22 @@ library('pheatmap')
 library('RColorBrewer')
 library('networkD3')
 
+# render .md files to html on-the-fly
+includeMD = function(file) {
+  return(markdownToHTML(file, options = c(''), stylesheet = ''))
+}
+
+# render .Rmd files to html on-the-fly
+includeRmd = function(path) {
+  # shiny:::dependsOnFile(path)
+  contents = paste(readLines(path, warn = FALSE), collapse = '\n')
+  # do not embed image or add css
+  html = knit2html(text = contents, fragment.only = TRUE,
+                   quiet = TRUE, options = '', stylesheet = '')
+  Encoding(html) = 'UTF-8'
+  HTML(html)
+}
+
 # compute standard (FP2) fingerprint and return matrix for Java molecular object
 calcStandardFP = function (molecules, depth = 6L,
                            size = 1024L, silent = TRUE) {

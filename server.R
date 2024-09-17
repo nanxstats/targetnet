@@ -24,6 +24,22 @@ shinyServer(function(input, output, session) {
   crlist = c('auc' = 'AUC', 'acc' = 'Accuracy', 'bedroc' = 'BEDROC',
              'mcc' = 'ThresMCC', 'f' = 'ThresF')
 
+  observeEvent(input$smiles, {
+    showModal(modalDialog(
+      title = "Submit Single Query Compound",
+      HTML(includeMD('help/smiles.md')),
+      easyClose = TRUE
+    ))
+  })
+
+  observeEvent(input$uploadfile, {
+    showModal(modalDialog(
+      title = "Upload Query Compounds",
+      HTML(includeMD('help/upload.md')),
+      easyClose = TRUE
+    ))
+  })
+
   calcPredDF = reactive({
 
     if ( input$inputsmi == '' & is.null(input$file1) ) {
