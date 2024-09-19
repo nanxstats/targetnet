@@ -1,5 +1,4 @@
 library('shiny')
-library('networkD3')
 
 source('ui-core.R', local = TRUE)
 
@@ -220,7 +219,7 @@ shinyUI(navbarPage(title = 'TargetNet',
 
                                                  mainPanel(width = 8L,
                                                            tabsetPanel(
-                                                             tabPanel("Network", simpleNetworkOutput("simplenetwork"))
+                                                             tabPanel("Network", visNetwork::visNetworkOutput("visnet", height = "700px"))
                                                            )
                                                  )
 
@@ -237,7 +236,7 @@ shinyUI(navbarPage(title = 'TargetNet',
                                       p(tags$strong('Tips: ')),
                                       p('1. Click on the legend labels in the upper right to hide or show the corresponding lines.'),
                                       p('2. Move cursor in the chart to see the detailed performance values of each target.'),
-                                      includeHTML('help/chart.html'),
+                                      Rnvd3::rnvd3Output("chart"),
                                       hr(),
                                       h2(strong('All Targets')),
                                       hr(),

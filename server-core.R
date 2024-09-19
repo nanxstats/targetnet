@@ -4,7 +4,6 @@ library('xlsx')
 library('base64enc')
 library('pheatmap')
 library('RColorBrewer')
-library('networkD3')
 
 # render .md files to html on-the-fly
 includeMD = function(file) {
@@ -195,11 +194,12 @@ xn.heatmap = function(tsvpath) {
 
 }
 
-d3network = function(tsvdata) {
+df_to_visnetwork = function(tsvdata) {
+  df = read.table(tsvdata, header = TRUE, as.is = TRUE)
+  df[, 1L] = paste0('Drug.', df[, 1L])
+  df[, 2L] = paste0('Target.', df[, 2L])
 
-  graph = read.table(tsvdata, header = TRUE, as.is = TRUE)
-  graph[, 1L] = paste0('Drug.', graph[, 1L])
-  graph[, 2L] = paste0('Target.', graph[, 2L])
-  simpleNetwork(graph)
+  gdf = igraph::graph_from_data_frame(df, directed = FALSE)
 
+  visNetwork::toVisNetworkData(gdf)
 }
