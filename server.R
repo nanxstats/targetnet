@@ -223,18 +223,63 @@ shinyServer(function(input, output, session) {
 
   }, deleteFile = TRUE)
 
-  output$simplenetwork = renderSimpleNetwork({
+  output$visnet = visNetwork::renderVisNetwork({
 
     input$makenetworkButton
 
     network = isolate({
-      if ( is.null(input$networktsv) ) {
-        d3network('data/network-example.tsv')
+      path = if ( is.null(input$networktsv) ) {
+        "data/network-example.tsv"
       } else {
-        d3network(input$networktsv$datapath)
+        input$networktsv$datapath
       }
+      vnd = df_to_visnetwork(path)
+      visNetwork::visNetwork(vnd$nodes, vnd$edges)
     })
 
+  })
+
+  output$chart = Rnvd3::renderRnvd3({
+    df <- jsonlite::fromJSON("data/chart.json")
+
+    dat1 <- Rnvd3::lineChartData(
+      x = ~ subset(df, grp == "AUC")$x,
+      y = ~ subset(df, grp == "AUC")$y,
+      key = "AUC",
+      color = "#e41a1c"
+    )
+
+    dat2 <- Rnvd3::lineChartData(
+      x = ~ subset(df, grp == "Accuracy")$x,
+      y = ~ subset(df, grp == "Accuracy")$y,
+      key = "Accuracy",
+      color = "#377eb8"
+    )
+
+    dat3 <- Rnvd3::lineChartData(
+      x = ~ subset(df, grp == "BEDROC")$x,
+      y = ~ subset(df, grp == "BEDROC")$y,
+      key = "BEDROC",
+      color = "#4daf4a"
+    )
+
+    dat4 <- Rnvd3::lineChartData(
+      x = ~ subset(df, grp == "MCC")$x,
+      y = ~ subset(df, grp == "MCC")$y,
+      key = "MCC",
+      color = "#984ea3"
+    )
+
+    dat5 <- Rnvd3::lineChartData(
+      x = ~ subset(df, grp == "F-score")$x,
+      y = ~ subset(df, grp == "F-score")$y,
+      key = "F-score",
+      color = "#ff7f00"
+    )
+
+    dat <- list(dat1, dat2, dat3, dat4, dat5)
+
+    Rnvd3::lineFocusChart(dat, useInteractiveGuideline = TRUE)
   })
 
   output$alltargets = DT::renderDT({
